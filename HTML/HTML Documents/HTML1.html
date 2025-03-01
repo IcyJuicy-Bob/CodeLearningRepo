@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-GB"> <!--lang defines language en is english helps search engine filter searches GB is the uk country code to only show in a specific country-->
+ <head>
+  <title>html test</title>
+  <link rel="icon" href="../HTMLicon.ico" type="image/x-icon">
+	<!--rel defines relationship as a icon or "favicon"
+	the image ico says its a image icon and href says where the image is-->
+	<!--this doesnt really work except from the first page idk why but it should so yeah-->
+  
+  <!-- 
+  style attribute is used to determine the style 
+  these are internal and external css working just hidden in a comment
+  -->
+  <!--
+  <style> - style attribute is used to determine the style
+  body {background-color: powderblue;}
+  h1 {color: blue:}
+  p	{color: red; border: 2px solid blue}
+  </style>
+  -->
+  <!-- border makes a border around a text padding changes the space between the text and the border and margin defines space on the outside of the page check css file to see these attributes
+margin is formatted top right bottom left for 4 values/top right and left bottom for 3/top and bottom right and left for 2 and all for 1 -->
+<!--
+  <link rel="stylesheet" href="../../CSS/styles.css">
+-->
+<!--the rel determines relationship between the other file and the current one-->
+<style>
+li a { /* both this and the next thing is to change the look of list links*/
+    display: block;
+    color: white; /*display block makes it a block everything else self explanitory*/
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111;
+}
+</style> 
+</head>
+ <body>
+	<ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: rgb(120, 35, 200);">
+		<li style="float:left;"><a href="HTML1.html">page 1</a></li> <!--these are lists but they have the a (link basically) element so they can take you to another page-->
+		<li style="float:left;"><a href="HTML2.html">page 2</a></li>
+		<li style="float:left;"><a href="HTML3.html">page 3</a></li>
+		<li style="float:left;"><a href="HTML4.html">page 4</a></li>
+	</ul> <!--this entire this is a big block imma put it at the top of the page so it looks good but it basicallt a list with buttons to take you to another page-->
+	
+	
+	<h1>This is a heading at size 1</h1> <!--uses h1 which is size 1 can go down to size 6 which is that smallest-->
+	<p>This is a paragraph with a line break<br>This is where the bulk of the writing would go</p> <!--<br> is a line break is just make the text go onto another line-->
+	<a href="https://www.youtube.com/">This is a basic hyperlink to youtube</a>
+	<!--href just tells the code what link you want and the bit after is just what text you want to be instead of just the basic link-->	
+	<a href="#1"><br><br>skip to HTML colours</a> <!--the # determines it's a bookmark link the number is the name of the bookmark-->
+	<a href="HTML2.html#2"><br>skip to page 2 using bookmarks</a>
+	<!--the HTML2.html before #2 tells it that its on a diffrent document-->
+
+	<h3>This is a heading at size 3</h3>
+	<p>This is another paragraph the image below can be displayed two way absolute url copy a image's image adress<br>and use that after the src in the code or use a relative url<br>with uses a file location that is hosted on the website or just the location in the folder<br> in which the .html file is located</p>
+	<img src="../Images/HTML.png" alt="HTML Logo" width="225" height="225">
+	
+	<!--above is a image insertion src defines what image file it si and alt is the words that displays when it doent display width and hight is self explanitory-->
+	
+	<h2 style="color:green">This is a title at size 2 coloured green</h2>
+	<!--uses the style attribute and the value as color to define the type of style and green to define the color (name:value) can also be used to display font size and more-->
+	<p title="Basic ToolTip using the title attribute">Attributes change the look and interactions of elements<br>this has a tooltip if you hover the mouse over it</p>
+	
+	<h1>Heading at size 1</h1>
+	<h2>Heading at size 2</h2>
+	<h3>Heading at size 3</h3>
+	<hr> <!--thematic break (horizontal rule) basically a seperating line in the page-->
+	<h4>Heading at size 4</h4>
+	<h5>Heading at size 5</h5>
+	<h6>Heading at size 6</h6>
+	<h1 style="font-size:30px;color:red">Heading with font size at 30 pixels and red</h1>
+	<!--using semi colon (;) between the types of styles allows multiple styles to be used at once-->
+	
+	<pre> <!--pre formatted text keeps the original format-->
+	The &lt;pre&gt; element
+keeps the 	original format
+	shown in the source code
+including indentation
+	</pre>
+	<!--the &lt displays a < &gt displays a > use semicolon (;) after symbol codes idk why i dont want to risk it-->
+	
+	<h1 style="text-align:center;">Text Styling using attributes</h1>
+	<!-- aligned to the center using text-align attribute-->
+	
+	<p style="background-color:powderblue;color:green;font-family:courier;font-size:150%;">this is a paragraph with the background colour<br>powder blue and the colour green using<br>the font courier at 150% size</p>
+	<!--chained the style attributes using the semi colon (;)-->
+	
+	<p>this paragraph uses <b>bold</b>, <strong>important</strong>, <i>italic</i>, <em>emphasized</em>, <mark>marked</mark>, <small>smaller</small>, <del>deleted</del>, <ins>inserted</ins>, <sub>subscript</sub>, and <sup>superscript</sup> text using formatting</p>
+	
+	<hr>
+	<p>quote from wikipedia using the blockquote element:</p>
+	
+	<blockquote cite="https://en.wikipedia.org/wiki/YouTube"> <!--user the cite attribute here is for server side stuff not for readers-->
+	YouTube is an American social media and online video sharing platform owned by Google.<br><br><cite><a href="https://en.wikipedia.org/wiki/YouTube">-https://en.wikipedia.org/wiki/YouTube</a></cite> <!--cite here is shown to the viewer i made it a link-->
+	</blockquote>
+
+	<p>This is a short quotation: <q>This uses the &lt;q&gt; element</q></p>
+	<p><abbr title="hypertext markup language">HTML</abbr> is a code used to make websites</p>
+	
+	<address> <!--used to display contact information normally in italic-->
+author<br>
+websitre link<br>
+email<br>
+address<br>
+country
+	</address>
+	
+	<p><cite>html</cite> was made by Tim Berners-Lee</p>
+	<h4>the next paragraph is written right to left backwars starting on the right on each line</h4>
+	<bdo dir="rtl">This text is written right to left using the bdo element<br>and the dir (direction) attribute with the value rtl<br>or in full right to left</bdo> <!--yes it looks weird when displayed its written right to left-->
+	<hr>
+	
+	<h3 style="border:2px solid blue" id="1">HTML colours</h3> <!--the id="1" defines a bookmark its so you can like fast travel here its actually a bookmark-->
+	<p>the title uses a border colour in format border:2px solid blue telling the width,<br>colour and telling its a solid colour</p>
+	<div style="background-color:rgb(255, 99, 71)">this uses a rgb code to change the colour format: (255,99,71)</div>
+	<div style="background-color:#ff6347;">this uses a hex code format: #ff6347</div>
+	<div style="background-color:hsl(9, 100%, 64%)">this uses a hsl code format: (9,100%,64%)</div>
+	<div style="background-color:rgba(255, 99, 71, 0.5)">this uses a rgba code with a alpha channel (changes transparency) format: (255,99,71,0.5)</div>
+	<div style="background-color:hsla(9, 100%, 64%, 0.5)">this uses hsla with a alpha channel format: (9,100%,64%,0.5)</div>
+	
+	<p style="color:blue">this paragraph uses a inline CSS (cascading style sheets) to change the colour<br>cascading means a style applied to the parent element</p>
+	<p>you can use a internal CSS but useing the style element inside the head element<br>for example using body {background-color: powderblue;} inside would change the entire<br>page packground to powder blue</p>
+	<p>you can also use a external CSS to do the same effect to view both CSS examples they are at the beginning of the html document<br>&ltlink rel="stylesheet" href="styles.css&gt this is a example of the external css</p>
+	
+	<hr>	
+	<a href="HTML2.html" target="_top">This is a link to another html document</a>
+<!--
+	you can set targets with the target attribute 
+	_self opens on the same tab	
+	_blank opens in a diffrent tab
+	_parent opens the document in the parent frame (same tab)
+	_top kinda does the same thing as parent and self
+-->
+	<p>(this document is getting a bit long with the comments and text)</p>
+
+ </body>
+</html>

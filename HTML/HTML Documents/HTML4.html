@@ -1,0 +1,194 @@
+<DOCTYPE! html>
+<html>
+<head>
+    <title>html test 4</title>
+    <link rel="icon" href="../HTMLicon.ico" type="image/x-icon">
+    <style>
+        table, th, td {
+            border: 5px solid black;
+            border-collapse: dont-collapse;
+            border-radius: 5px;
+            height: 50px;
+        }
+        th, td {
+            text-align: center;
+            font-size: x-large; /*the x-large means extra large i couldnt be asked to specify to actual pixel size*/
+        }
+
+        li a { /* both this and the next thing is to change the look of list links*/
+            display: block;
+            color: white; /*display block makes it a block everything else self explanitory*/
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111111;
+        }
+        div { /*div can be styled in the style section of the document*/
+            background-color: #FFF4A3; 
+        }
+    </style>
+</head>
+
+<body>
+<!--i added a bunch of styles here so it doesnt effect the other lists on this page
+    all the other styles in the ul element just set background colour ect and make sure styles dont overlap weird overflow says what to do if it overflows idk what exactly
+    the float left makes it kinda float on the left-->
+<ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: rgb(120, 35, 200);">
+    <li style="float:left;"><a href="HTML1.html">page 1</a></li> <!--these are lists but they have the a (link basically) element so they can take you to another page-->
+    <li style="float:left;"><a href="HTML2.html">page 2</a></li>
+    <li style="float:left;"><a href="HTML3.html">page 3</a></li>
+    <li style="float:left;"><a href="HTML4.html">page 4</a></li>
+</ul> <!--this entire this is a big block imma put it at the top of the page so it looks good but it basicallt a list with buttons to take you to another page-->
+
+    <h1 style="text-align: center; font-size: 50px">even more table styles</h1>
+<button onclick="document.location='HTML3.html'" style="margin-left: 45%; margin-right: 45%;">back to page 3</button>
+<br><br>
+
+<table style="width:70%; margin-left:auto; margin-right:auto;">
+    <colgroup> <!--colgroup must go before any other element in the table element but if the cpation element is present it must go after that-->
+        <col span="2" style="background-color: rgb(210, 30, 30);"> <!--col is used to define what the colgroup does span tells it how many collums-->
+        <col span="1"> <!--you can use empty col elements to leave gaps in the collums-->
+        <col span="2" style="background-color: rgb(30, 30, 210);"> <!--you can use multiple col elements inside the main colgroup element-->
+        <!--you can also use style="visibility: collapse;" to basically hide a collum it removes it and brings the collums on either side together-->
+    </colgroup>
+    <!--only some types of css elements can be used in the colgroup element these include width, visibility, background, and border properties-->
+    <tr>
+        <th>header</th>
+        <th>header</th>
+        <th>header</th>
+        <th>header</th>
+        <th>header</th>
+    </tr>
+    <tr>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+    </tr>
+    <tr>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+    </tr>
+    <tr> <!--these tables really do take up a lot of lines-->
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+    </tr>
+    <tr>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+        <td>data</td>
+    </tr>
+
+</table>
+
+<h1 style="text-align: center;">html lists</h1>
+<h3>this is a unordered and ordered list<br>using the ul element and the li child element</h3>
+
+<!--these are unordered lists ul means unordered list these are just shown with bullet points by default-->
+<ul style="list-style-type: disc;"> <!--list style type defines the type of list style these can be disc, circle, square or none
+    disk is normal circle, circle is a hollow circle, square is a square, none is nothing also a incorrect value makes it numbered for some reason-->
+    <li>one</li>
+    <li>two</li>
+        <ul>
+            <li>lists can be nested</li> <!--nested list defaults to a circle list style type (hollow circle)-->
+            <li>like this</li>
+        </ul>
+    <li style="list-style-type: square;">three</li>
+    <li style="list-style-type: square;">four</li>
+</ul>
+
+<!--these are ordered lists ol means ordered list these are shown with numbered ordering them by default-->
+<ol type="I" start="1"> <!--the type attribute changes what the list is ordered by default is numbers or a tpye value of "1" if you use "A" or "a" it'll be ordered by letters upercase gives uppercase same with lowercase "I" or "i" define roman numerals capital sensitive same as letters-->
+    <li>one</li> <!--the start attribute says what number it starts on for example if 3 is entered it starts at the 3rd character for example 3 or c and counts up like normal 3,4,5,6 or c,d,e,f -->
+    <li>two</li>
+    <ol type="A" start="1">
+        <li>ordered list</li>
+        <li>can be nested</li>
+    </ol>
+    <li>three</li>
+    <li>four</li>
+</ol>
+<p>this is a discription list tells you the name and descriptions</p>
+
+<dl> <!--description list (dl) adds descriptions for each item-->
+    <dt>this is a term</dt><!--description term (dt)-->
+    <dd>this is a description</dd><!--description data/description (dd)-->
+    <dt>this is a term</dt>
+    <dd>this is a description</dd>
+    <dt>this is a term</dt>
+    <dd>this is a description</dd>
+</dl>
+
+<hr>
+<p>the gap between paragraphs and other text is wider than between div/division elements<br>both are still block-level elements and take up the entire page<br>from the left to the right even if they dont fill that space<br>below is a example</p>
+<hr>
+<p>paragraph</p>
+<p>paragraph</p>
+<div style="background-color: white;">division</div> <!--i added a style and background colour to these so it doesnt get effected by the style section-->
+<div style="background-color: white;">division</div>
+<!--
+these are all the types of block-level elements in html
+
+<address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt>
+<fieldset> <figcaption> <figure> <footer> <form> <h1>-<h6> <header> <hr>
+<li> <main> <nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ul> <video>
+-->
+<hr>
+<p>inline-level elements only take up as much space as necessary<br>and dont automatically start on a new line<br>example below</p>
+<hr>
+<span>text</span>
+<span>text</span>
+<br>
+<p>this is using the span element its normally used in<br>paragrpahs to style a part of the text for example</p>
+<p>this is a paragraph using the <span style="color:blue"><b>span element</b></span> to style it</p>
+<!--
+these are all the types of inline-level elements in html
+
+<a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite> <code>
+<dfn> <em> <i> <img> <input> <kbd> <label> <map> <object> <output>
+<q> <samp> <script> <select> <small> <span> <strong> <sub> <sup>
+<textarea> <time> <tt> <var>
+-->
+<hr>
+<p>this is a paragraph that uses a div element which takes up a entire row<br>and uses a line break before and after the division can be used to section/style a part of text</p>
+
+<h4 style="font-weight: normal;">this is a<div style="background-color: green;">paragraph</div>using div element</h4>
+<!--i used a title element because using a paragraph element made a weird gap before the div element section i used font weight to change the default bold font to normal-->
+<p>div elements can be used to section parts of a webpage together<br>these next lines will be sectioned with the div element</p>
+<br>
+
+<!--div elements can be used to section parts of the document-->
+<div style="width: 300px; margin: auto;"> <!--margin auto automatically defines the margin to the center and the width defines how wide it can be it needs width to work-->
+    <h2>divison section</h2>
+    <p>div elements can be styled</p>
+    <p>in the style section i added a background</p>
+    <p>this uses a style from the styles section</p>
+</div>
+
+<div style="width: 300px; margin: auto; background-color: #FFC0C7;">
+    <h2>divison section</h2>
+    <p>div elements can be styled</p>
+    <p>in the style section i added a background</p>
+</div>
+
+<div style="width: 300px; margin: auto; background-color: D9EEE1;">
+    <h2>divison section</h2>
+    <p>div elements can be styled</p>
+    <p>in the style section i added a background</p>
+</div>
+
+
+
+</body>
+</html>

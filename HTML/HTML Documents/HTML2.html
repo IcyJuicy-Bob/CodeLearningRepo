@@ -1,0 +1,105 @@
+<DOCTYPE! html>
+
+<html>
+ <head>
+  <title>html test 2</title>  
+   
+  <!--
+  body {
+	background-image: url("../Images/Javascript.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+} 
+this sets the background image use body to refer to the main page image repeats on default
+background repeat tells it to repeat the image or not to repeat the image
+background size with the value "cover" makes it cover the entire page and attachment fixes it in place so it doesnt move when scrolling down
+if you change the value of background size to 100%,100% it fills the entire page and stretches when resized
+(the photo in the quote is a bit large vertically and wont be fully shown if in the fixed attachment)
+
+i had to write the note here instead of in the style element because the style element
+reads it has if it was written in css that uses a diffrent way to type notes-->
+  
+  <style>
+  a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+  a:visited {
+	color: purple;
+	background-color: transparent;
+	text-decoration: none;
+}
+  a:hover {
+	color: red;
+	background-color: yellow;
+	text-decoration: underline;
+}
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+   </style> <!--self explanitory just this changes all links on the page-->
+   
+ </head>
+<body>
+	<h1 id="2">this is a second html document</h1>
+	<a href="HTML1.html" style="background-color:transparent;">
+	<!--background color got rid of weird yellow background when hovering that carried over from the style section in the header-->
+	 <img src="../Images/HTML.png" alt="HTML Logo" title="this takes you to the first page" style="width:225px;height:225px;"> <!--style is width and height in one-->
+	</a> <!--i added a tooltip to the image-->
+	<p>the above image takes you to the first page so does the button below</p>
+	<button onclick="document.location='HTML1.html'">first page</button> <!--you can use a .asp file to do this aswell-->
+	<br><br>
+	<a href="mailto:example@example.com">send email</a>
+	<!--mailto before the email opens email apps ect-->
+	
+	<p>you can change the default colour of links using the style element<br>(also changes the link above)</p>
+	<a href="https://wikipedia.org">example link</a>
+	
+	<p>You can also style links as buttons to see this <a href="LinkButton.html" target="_self">click here</a><br>(you could add it to a individual link without it effecting the whole page with a css file i just cant be asked)</p>
+
+<img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" alt="wikipedia logo" title="image from another page using absolute URL's" style="width:225;height:225;">
+<br>
+<img src="../Images/preloader.gif" title="gif using the img element" alt="preloader animated image" style="width:150;height:138;">
+<br>
+<p><img src="../Images/CSS.png" alt="CSS logo" style="float:left;width:50px;height:70px;">
+the image will float next to the paragraph using the float style attribute<br>after the float attribute you need to specify what side you want it to float on and the pixel size</p>
+
+<h3><br>image maps and basic scripts</h3>
+<p>this is a image map it allows you to clikc and interact with<br>diffrent parts of the image try it out (circle uses a javascript script)</p>
+<img src="../Images/imagemap.png" alt="square circle and polygon image" usemap="#imagemap" style="width:225;height:225;"> <!--usemap tells the code what image map to use same as the bookmark attribute-->
+
+<map name="imagemap"> <!--creates a new image map with the name "imagemap"-->
+	<area shape="rect" coords="19,18,79,74" alt="square" href="Square.html"> <!--shape difines shape rect=rectangle coords are two oposite corners-->
+	<area shape="poly" alt="polygon" href="Polygon.html" coords="58,198,97,201,128,210,156,183,171,133,156,97,75,93,63,123,45,151,56,172"> <!--poly=polygon the coords are each point coords are each point in the polygon-->
+	<area shape="circle" coords="175,49,38" alt="circle" onclick="function1()"> <!--circle coords is the center and the radius in px-->
+</map>
+
+<script> <!--determines a script written in javascript-->
+function function1() {
+	alert("you clicked the circle");
+}
+</script> <!--function element defines the function alert displays a notification from top of the screen-->
+<!--inside the script element the code is read as if it was javascript so dont use notes inside it otherwise it wont work-->
+
+<br> <!--dont put a = after url otherwise it doesn't work-->
+<p style="background-image: url('../Images/Javascript.png'); 
+background-repeat: no-repeat; 
+background-size: contain; width:100px; height:130px;"><br>this paragraph uses a<br>background image<br>behind the paragraph</p>
+<!--background image and url is pretty simple to understand background size determines the size of the image contain means its contained in then the width and height to define the size to contain it in also contains the text in that range-->
+<!--background repeat tells it if it needs repeating-->
+<br>
+
+<picture>
+	<source media="(min-width: 700px)" srcset="../Images/Javascript.png">
+	<source media="(min-width: 500px)" srcset="../Images/CSS.png">
+	<img src="../Images/HTML.png">
+</picture> <!--media defines the minimum width of the screen to display the image probably works with maximum and height too-->
+<!--if a small screen or device is used itll automatically choose the first one with matching attributes without using the media attribute-->
+<!--also does the same with file types too-->
+
+</body>
+</html>

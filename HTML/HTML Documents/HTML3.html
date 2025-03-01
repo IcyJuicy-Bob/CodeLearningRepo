@@ -1,0 +1,168 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>html test 3</title>
+<link rel="icon" href="../HTMLicon.ico" type="image/x-icon">
+<style>
+table, th, td {
+	border: 10px solid black;
+	border-collapse: dont-collapse;
+	border-radius: 20px;
+	border-style: ridge;
+	padding: 2px;
+}
+th, td {
+	/*background-color: #847bd6;*/    /*this is a comment in css i had to do this to allow the nth-child to look right without background colour fixes it looking weird*/
+	text-align: center;
+}
+table {
+	border-spacing: 7px;
+}
+tr:nth-child(odd) {
+	background-color: rgba(87, 21, 109, 0.5);
+}
+th:nth-child(odd), td:nth-child(odd) {
+	background-color: rgba(87, 21, 109, 0.5);
+}
+tr:hover {
+	background-color: chartreuse;
+}
+table.center{
+	margin-left: auto; /*this is to center the table if i set the class to "center" itll align the table defined in this style this the center after table is what tells it that the class has to be center*/
+	margin-right: auto;
+}
+
+li a { /* both this and the next thing is to change the look of list links*/
+    display: block;
+    color: white; /*display block makes it a block everything else self explanitory*/
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111;
+}
+</style>
+<!--
+tr:nth-child(odd) {
+	background-color: rgba(87, 21, 109, 0.5);
+}
+this makes lines coloured from left to right the odd can be replaced with even it jsut means every off number
+
+th:nth-child(odd), td:nth-child(odd) {
+	background-color: rgba(87, 21, 109, 0.5);
+}
+this is the same thing just makes it vertical instead of left to right you put the nth child on the headers and data rather than the rows themselves
+if you do both of these itll makeboth horizontal and vertical lines and if you do a transparent effect like a rgba colour itll overlap making the overlapping colour darker
+-->
+<!--tr:hover background cover doesnt effect anything with the background colour overwritten so it only works for the first one it also adds the colour like a transparent overlay by default so it looks pretty good anyway-->
+<!--
+border tyles change how the border looks here is a list of each
+dotted - makes the border a dotted line
+dashed - like dotted just makes bigger dots/dashes
+solid - a basic line around it normal border basically
+double - turns the border line into 2 needs bigger than 1px border to work right same with the ones below
+groove - makes a groove into the page
+ridge - makes a ridge going out of the page
+inset - inset like a button going into the page
+outset - like inset just going out instead of in
+none - removes the border
+hidden - i think the same as none it looks the same anyway
+-->
+<!--table th and td determine what parts are effected by the styling
+border adds a border
+border collapse shrinks it so its only a single line border and not 2 lines
+border radius rounds the borders
+background colour changes background colour of table headers and data
+text-align aligns the text to the center of the box
+padding gives space around the text putting this under table also gives it space between the outside and the boxes themselves but not between the boxes
+if you use padding you can also only define it to a specific area for example padding-left, padding-right, padding-top, padding-bottom
+border-spacing adds a space between all all boxes and the outside border it only works if you put it under the table style so i made a new area just to asign to the table i didnt have to do this but i did it anyway
+-->
+<!--if you leave out table when telling it about the border it only puts a border around the text and not the main table itself-->
+<!--most of the stuff in the styles section can be done inline except anything with like a colon in it before the curly brackets like tr:hover {} for example when defining what you want effected-->
+</head>
+
+<body>
+<ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: rgb(120, 35, 200);">
+	<li style="float:left;"><a href="HTML1.html">page 1</a></li> <!--these are lists but they have the a (link basically) element so they can take you to another page-->
+	<li style="float:left;"><a href="HTML2.html">page 2</a></li>
+	<li style="float:left;"><a href="HTML3.html">page 3</a></li>
+	<li style="float:left;"><a href="HTML4.html">page 4</a></li>
+</ul> <!--this entire this is a big block imma put it at the top of the page so it looks good but it basicallt a list with buttons to take you to another page-->
+	
+
+	<h1>tables and styling</h1>
+
+<button onclick="document.location='HTML2.html'">back to page 2</button>
+<p></p>
+<table style="width:100%; font-size:40px;">
+	<tr style="height:50px;"> <!--table row-->
+		<th style="width:30%;">header 1</th> <!--table heading-->
+		<th style="width:50%;">header 2</th> <!--the style is used in the top table row probably can do others it'll just look weird-->
+		<th style="width:20%;">header 3</th>
+	</tr>
+	<tr style="height:100px;"> <!-- height is specified in the table row section-->
+		<td>data 1</td> <!--table data-->
+		<td style="background-color: rgba(83, 3, 187, 0.774);">data 2</td>
+		<td>data 3</td>
+	</tr>
+	<tr style="height:100px;">
+		<td>data 4</td>
+		<td>data 5</td>
+		<td>data 6</td>
+	</tr>
+</table>
+<hr>
+
+<table style="width:100%; border-style:solid; border:5px solid black; border-spacing:5px;"> <!--all of this stuff in the style attribute just overwrites the pre-defined style in the style section of the heading-->
+	<caption style="font-size:30px;"><b>this is a table caption<br>btw all infomation about this page is in the code<b></caption> <!--this could really go anywhere in the table element but here is the most convenient-->
+	<tr>
+		<th style="width:200px; border-style:solid; border:5px solid black; background-color: aquamarine;"></th>
+		<th colspan="2" style=" border-style:solid; border:5px solid black; background-color: aquamarine;">header</th> <!--colspan determines how many collums the box covers-->
+	</tr>
+	<tr>
+		<th style="border-style:solid; border:5px solid black; background-color: aquamarine;">header</th>
+		<td style="border-style:solid; border:5px solid black; background-color: aquamarine;">data</td>
+		<td style="border-style:solid; border:5px solid black; background-color: aquamarine;">data</td>
+	</tr>
+	<tr>
+		<th style="border-style:solid; border:5px solid black; background-color: aquamarine;">header</th>
+		<td colspan="2" rowspan="2" style=" border-style:solid; border:5px solid black; font-size:50px; background-color: aquamarine;">data</td>
+		
+	</tr>
+	<tr>
+		<th style="border-style:solid; border:5px solid black; background-color: aquamarine;">header</th>
+		
+	</tr>
+</table>
+<hr>
+<table style="border: 5px solid black; border-style:solid; width:70%;" class="center"> <!--the class = center tells it the class is set to center its to align the table to the middle of the page to see how its defined look for table.center in the styles section-->
+	<tr >
+		<th style="border-style:solid; border: 2px solid black; background-color: rgb(89, 89, 89);">header</th>
+		<td style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">data</td>
+		<td style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">data</td>
+	</tr>
+	<tr>
+		<th style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">header</th>
+		<td style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">data</td>
+		<td style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">data</td>
+	</tr>
+	<tr>
+		<th style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">header</th>
+		<td style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">data</td>
+		<td style="border-style:solid; border: 2px solid black; background-color:rgb(89, 89, 89);">data</td>
+	</tr>
+</table>
+<!--
+tr {
+	border-bottom: 2px solid #ddd;
+}
+
+if this is used in the style section it adds lines between each row because it makes a borber at the bottom of each row if a border is already
+specified it doesnt work because its like overwritten or something idk for sure but it doesn't work-->
+<br>
+<button onclick="document.location='HTML4.html'" style="margin-left:30%; margin-right:30%; ">this document looks kinda crazy in the code<br>and the styling is clashing like crazy<br>so im moving to another page click this</button>
+<!--the margin left and right is just to align it to center probably a better way to do that its just trial and error here dont use this as a basic way of doing this-->
+</body>
+</html>
