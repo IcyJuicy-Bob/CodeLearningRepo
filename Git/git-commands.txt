@@ -1,3 +1,5 @@
+- basic git commands and local repositories
+
 mkdir                                                                makes a directory
 git init                                                             initialises git in the directory and makes it a repository
 git --version                                                        checks and outputs the version of git
@@ -27,3 +29,8 @@ git checkout "branch name (dont use quotation marks)"                changes the
 git checkout "branch name -b (dont use quotation marks)"             changes the branch to the specified branch except creates and moves to a new branch if the specified branch isnt already a branch
 git merge "branch name (dont use quotation marks)"                   merges a branch to the parent branch or main branch use this while on the parent branch if this is used on a brnahc that hasnt had a update since the other branch was created it fast forwards basically making them the same as eachother and the branch that was merged can be deleted if you dont need it anymore
 git merge --abort                                                    aborts a branch merge
+
+- github and remote repositories
+
+git remote add origin "URL (dont use quotation marks)"               specifies your added a remote repository (not local) with the specified URL
+git push --set-upstream origin "branch name(dont use quotes)"        pushes the specified branch to the origin url/remote repository and sets it as the default remote branch
