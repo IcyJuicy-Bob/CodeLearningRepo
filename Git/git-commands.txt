@@ -43,3 +43,4 @@ git diff origin/master(or your main branch name)                     shows the d
 git push origin                                                      pushes your changes and commits to the origin and undates the origin to your current version
 git branch -a                                                        shows all avalible branches from local and remote repos
 git branch -r                                                        shows all remote branches
+git push origin "branch name (dont include quotation marks)"         pushes changes to the origin/remote repo
