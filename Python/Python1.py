@@ -89,3 +89,48 @@ def myfunc(): #defining a function
 
 myfunc() #calling the function
 
+#if you use the global keyword inside a function the variable value wont be local like default it will be global
+b = 2 #assign first global value
+
+def myfunction2():
+    global b #use the global keyword to say to assign the variable value as a global value
+    b = 3 #assigned the value
+    print(b)
+
+myfunction2() #call the function
+
+print("")
+#extended range of data types
+a = "hello world" #string data type for words
+print(a)
+print(type(a)) #prints the data type
+
+b = 2 #integer data type for numbers 
+print(b)
+print(type(b)) #prints the data type
+
+c = 2.5 #float data type for number with a decimal
+print(c)
+print(type(c)) #prints the data type
+
+d = 1j #complex data type for complex numbers and imaginary numbers j replaces a i in python for imaginery numbers for some reason
+print(d)
+print(type(d)) #prints the data type
+
+e = ["one", "two", "three"] #list data type makes lists to display or contain multiple values in a variable can be used to store integers strings and others
+print(e)
+print(type(e)) #prints the data type
+
+f = ("one", "two", "three") #tuple data type stores multiple values it is ordered and unchangable
+print(f)
+print(type(f)) #prints the data type
+
+g = range(6) #range data type these are to display a range of values of a data type
+print(g)
+print(type(g)) #prints the data type
+
+
+h = {"name" : "mark", "age" : 36} #dict/dictionary data type used for mapping purpose has a key and a value for each eg age : 36
+print(h)
+print(type(h)) #prints the data type
+
