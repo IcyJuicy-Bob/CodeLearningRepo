@@ -36,3 +36,4 @@ git remote add origin "URL (dont use quotation marks)"               specifies y
 git push --set-upstream origin "branch name(dont use quotes)"        pushes the specified branch to the origin url/remote repository and sets it as the default remote branch
 git fetch origin                                                     this fetchs changes from the origin/remote repository but doesnt commit the changes to your local version of the repo a bit like the staging environmentnot commiting to the actual repo
 git log origin/master(or your main branch name instead of master)    views the commit log for both your local repo and the remote and shows you if your a commit/commits behind the remote repo (head -> master) is local repo and its on the current commit the local repo is on same thing with origin but its (origin/master) instead
+git merge origin/master(or your main branch name)
