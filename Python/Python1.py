@@ -75,10 +75,17 @@ print(x + y, "this is the result of 3 + 6") #you can put text as well as variabl
 #you can put both text and string in a print with a comma
 print(x, z) #adding a comma instead of a + automatically leaves a space between the two items
 
-#variables outside a function are global variables meaning they can be used in and out of variables
+#variables outside a function are global variables meaning they can be used in and out of functions
 a = 3
 def function1(): #defining a varible def says to define and function1 is my name of my function it needs the brackets and the colon to work
     print("value =", a) #then you say what you want the function to do in this it shows global varibles work in functions
 
 function1() #calls a function and runs the function which i defined previously
+
+#if you assign a variable a value inside a function it will be local only changing inside the function not affecting the variable outside the function
+def myfunc(): #defining a function
+    a = 4 #setting the value of the variable
+    print("value =", a) #printing the variable
+
+myfunc() #calling the function
 
