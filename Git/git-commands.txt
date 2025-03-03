@@ -37,6 +37,7 @@ git push --set-upstream origin "branch name(dont use quotes)"        pushes the 
 git fetch origin                                                     this fetches changes from the origin/remote repository but doesnt commit the changes to your local version of the repo a bit like the staging environmentnot commiting to the actual repo
 git merge origin/master(or your main branch name)                    merges the current branch with the origin
 git pull origin                                                      fetches and merges with the origin master/main branch a quicker version but less precise then fetch and merge seperately
+git pull                                                             pulls all changes to local repo
 git log origin/master(or your main branch name)                      views the commit log for both your local repo and the remote and shows you if your a commit/commits behind the remote repo (head -> master) is local repo and its on the current commit the local repo is on same thing with origin but its (origin/master) instead
 git diff origin/master(or your main branch name)                     shows the diffrences between your current branch and the origin
 git push origin                                                      pushes your changes and commits to the origin and undates the origin to your current version
