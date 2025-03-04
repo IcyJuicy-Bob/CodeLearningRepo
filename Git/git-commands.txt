@@ -45,3 +45,8 @@ git branch -a                                                        shows all a
 git branch -r                                                        shows all remote branches
 git push origin "branch name (dont include quotation marks)"         pushes changes to the origin/remote repo used if the branch used isnt already in the repo
 git push origin --delete "branch name (dont use quotes)"             deletes a remote branch idk why i couldnt do it with push so this works just need to delete both locally and remotely
+
+- github pages
+
+- the name of the repo has to be your username followed by .github.io (e.g 20roech.github.io)
+git remote add gh-page "URL (dont use quotations)"                   same thing as setting a remote origin but with github pages pushes a local repo to github pages repositories
