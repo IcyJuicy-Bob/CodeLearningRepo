@@ -163,4 +163,6 @@ print(o)
 print(type(o)) #prints the data type
 
 
-print("") #line break
+#in this print command it tells you how to specify each data type
+print("\n to specify a data type you use a constructor function \n for example str would be the function here (str'hello world') \n here are all the types of constructor functions same order as the types listed above \n str, int, float, complex, list, tuple, range, dict, set, frozenset, bool, bytes, bytearray")
+
