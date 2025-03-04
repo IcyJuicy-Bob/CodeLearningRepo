@@ -99,6 +99,7 @@ def myfunction2():
 
 myfunction2() #call the function
 
+
 print("")
 #extended range of data types
 a = "hello world" #string data type for words
@@ -129,8 +130,37 @@ g = range(6) #range data type these are to display a range of values of a data t
 print(g)
 print(type(g)) #prints the data type
 
-
 h = {"name" : "mark", "age" : 36} #dict/dictionary data type used for mapping purpose has a key and a value for each eg age : 36
 print(h)
 print(type(h)) #prints the data type
 
+i = {"apple", "banana", "pear"} #set data type stores unordered unique elements nulls arent allowed
+print(i)
+print(type(i)) #prints the data type
+
+j = frozenset({"apple", "banana", "pear"}) #same as the set data type except they cant be changes after creation
+print(j)
+print(type(j)) #prints the data type
+
+k = True #bool/boolean data type either a True or False value capitals are needed to define these
+print(k)
+print(type(k)) #prints the data type
+
+l = b"hello" #bytes data type converts the string into binary data i think atleast couldnt find a good explanation
+print(l)
+print(type(l)) #prints the data type
+
+m = bytearray(5) #byte array data type is a array of bytes used to store binary data
+print(m)
+print(type(m)) #prints the data type
+
+n = memoryview(bytes(5)) #memory view data type is a way to view the contents of bytes and byte arrays is a changeable/modifiable sequence
+print(n)
+print(type(n)) #prints the data type
+
+o = None #none data type represents the absence of a value
+print(o)
+print(type(o)) #prints the data type
+
+
+print("") #line break
