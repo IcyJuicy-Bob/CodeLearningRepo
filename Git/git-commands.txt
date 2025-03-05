@@ -63,3 +63,4 @@ git remote add origin "URL (dont use quotation marks)"               specifies y
 - gitignore
 touch .gitignore                                                     makes a git ignore file use this is the main directory
 touch "file name and extention"                                      makes a file in the selected directory
+-- for more info about gitignore look inside the .gitignore file
