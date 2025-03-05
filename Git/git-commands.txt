@@ -48,9 +48,18 @@ git push origin --delete "branch name (dont use quotes)"             deletes a r
 
 - github pages
 
-the name of the repo has to be your username followed by .github.io (e.g 20roech.github.io)
+-- the name of the repo has to be your username followed by .github.io (e.g 20roech.github.io)
 git remote add gh-page "URL (dont use quotations)"                   same thing as setting a remote origin but with github pages pushes a local repo to github pages repositories
 
-- git cloning
+- git cloning and forking
 
 git clone "URL (dont use quotations)"                                clones a git repo that you dont have permission to edit into a local repo
+git remote -v                                                        shows how the remote is set up
+git remote remove "remote name (dont use quotations)"                removes a remote repo
+git remote rename "original name" "new name (dont use quotes)"       renames the remote repo
+git remote add origin "URL (dont use quotation marks)"               specifies your added a remote repository (not local) with the specified URL
+-- name your own repo remote as origin and the one you forked as upstream it is the conventional names most people use
+
+- gitignore
+touch .gitignore                                                     makes a git ignore file use this is the main directory
+touch "file name and extention"                                      makes a file in the selected directory

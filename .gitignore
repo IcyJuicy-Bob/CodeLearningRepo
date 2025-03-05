@@ -1,0 +1,7 @@
+#this is in the main directory so these rules apply to everything you can also put it in sub directories to only affect them with the rules
+
+#this ignores All files with the .log extention
+*.log
+
+#this ignores ALL files in a temp folder
+temp/
