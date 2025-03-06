@@ -166,3 +166,20 @@ print(type(o)) #prints the data type
 #in this print command it tells you how to specify each data type
 print("\n to specify a data type you use a constructor function \n for example str would be the function here (str'hello world') \n here are all the types of constructor functions same order as the types listed above \n str, int, float, complex, list, tuple, range, dict, set, frozenset, bool, bytes, bytearray")
 
+
+#three types of number data types (integer, float, complex)
+x = 1# integer - can be positive or negative of infinite length
+y = 2.5 #float - positive or negative number containing one or more decimals
+y2 = 8.7e4 #floats can also be scientific numbers containing e which is the same as a power of 10 for example 2e2 is 2 to the power of 10 squared so x100
+z = 1j #complex - complex numbers are imaginary numbers using j as the imaginary part
+
+#you can convert each data type into another by using the "type"() method
+
+x = 1 #integer
+a = float(x)
+print(type(a))
+
+import random #import the random module
+print(random.randrange(1, 10)) #random.randrange tells it it uses the random module and its a rand(random) number in a range then you specify the range
+#also this doesnt display the top numbers for some reason so 10 would be displayed ever its only 1-9
+
