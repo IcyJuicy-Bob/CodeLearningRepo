@@ -77,5 +77,11 @@ touch "file name and extention"                                      makes a fil
 ssh-keygen -t rsa -b 4096 -C "your email (dont use quotes)"          creates a new ssh key youll be prompted to enter a file location to save it and enter a passphrase to not allow anyone else but you who knows it to access the passkey
 -- this will generate a private and public key
 ssh-add "the file location you used (dont use quotes)"               adds the ssh key pair to the ssh agent you will need to input the passphrase if you made one
-clip < "file location (dont use quotes)"                               coppies the file to clipboard
--- go into github setings then ssh and gpg keys and import your ssh key
+clip < "file location (dont use quotes)"                             coppies the file to clipboard
+-- go into github setings then ssh and gpg keys and import your ssh key use the public key not private
+ssh -T "address (e.g git@github.com)(dont use quotes)"
+-- most of this dont work on codespace
+-- you can add a new remote using ssh using the ssh clone thing when clicking the code button on the repo main page
+git remote add ssh-origin "ssh url (dont use quotes)                 adds new origin using ssh
+git remote set-url origin "ssh url"                                  sets the ssh url to a ssh origin
+git remote set-url "remote-name" git@github.com:"username"/"repository.git"              changes a remote origin from https to ssh
