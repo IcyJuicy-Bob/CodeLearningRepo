@@ -90,4 +90,8 @@ git remote set-url "remote-name" git@github.com:"username"/"repository.git"     
 git log --oneline                                                    displays the git log with only one line its a more compact view of log
 git revert HEAD --no-edit                                            reverts to the previous commit and commits automatically the --no-edit part just skips the naming of the commit using the default name
 git revert Head~"x (dont use quotes)"                                reverts further than just the previous if you use teh number 1 it reverts one more so 2 commits back and so on
--- resetting is used when we want to move back to a previous commit discarding any changes made after that commit
+-- resetting is used when we want to move back to a previous commit it keeps changes but  unstages them
+-- the ahead commits dont show in log but arent deleted if you know the hash you can still go back to them
+-- this is normally fine doing on your local copy but dont do this on the remote unless your really sure it could mess other peoples work up
+git reset "commit hash (dont use quotes)"                            resets the repo back to the commit listed in the commit hash find that hash by looking in the log
+
