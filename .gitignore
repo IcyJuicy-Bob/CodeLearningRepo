@@ -10,6 +10,7 @@
 #personal files
 #etc
 #while this ignores these files git doesnt ignore the gitignore file itself
+#you can also use a .git/info/exclude file works the same as this but it just is also not shown to others when pushing ect
 
 
 # - rules for gitignore files

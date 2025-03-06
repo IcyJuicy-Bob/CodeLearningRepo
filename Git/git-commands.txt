@@ -61,6 +61,21 @@ git remote add origin "URL (dont use quotation marks)"               specifies y
 -- name your own repo remote as origin and the one you forked as upstream it is the conventional names most people use
 
 - gitignore
+
 touch .gitignore                                                     makes a git ignore file use this is the main directory
 touch "file name and extention"                                      makes a file in the selected directory
 -- for more info about gitignore look inside the .gitignore file
+
+- git security
+
+-- ssh is a secure shell network protocol it uses pairs of keys like a key and a lock type system like a handshake
+-- its to gain encryption in a unsecured open network
+-- when generating keys there is public and private keys
+-- public is for the remote party like the lock
+-- private is for you which you keep like the key to this lock
+-- next is commands to generating and using these keys
+ssh-keygen -t rsa -b 4096 -C "your email (dont use quotes)"          creates a new ssh key youll be prompted to enter a file location to save it and enter a passphrase to not allow anyone else but you who knows it to access the passkey
+-- this will generate a private and public key
+ssh-add "the file location you used (dont use quotes)"               adds the ssh key pair to the ssh agent you will need to input the passphrase if you made one
+clip < "file location (dont use quotes)"                               coppies the file to clipboard
+-- go into github setings then ssh and gpg keys and import your ssh key
