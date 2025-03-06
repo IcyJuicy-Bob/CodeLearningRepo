@@ -85,3 +85,9 @@ ssh -T "address (e.g git@github.com)(dont use quotes)"                          
 git remote add "remote name" "ssh url (dont use quotes)"                                                                       adds new origin using ssh url
 git remote set-url "remote-name" git@github.com:"username"/"repository.git"                                                changes a remote origin from https url to ssh url
 
+- reverting, resetting, and ammending in git
+-- reverting is used when using a previous commit as a new commit keeping the log intact
+git log --oneline                                                    displays the git log with only one line its a more compact view of log
+git revert HEAD --no-edit                                            reverts to the previous commit and commits automatically the --no-edit part just skips the naming of the commit using the default name
+git revert Head~"x (dont use quotes)"                                reverts further than just the previous if you use teh number 1 it reverts one more so 2 commits back and so on
+-- resetting is used when we want to move back to a previous commit discarding any changes made after that commit
