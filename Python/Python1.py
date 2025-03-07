@@ -206,4 +206,42 @@ consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.""")
 #the line breaks are still shown in the console
+#like other languages strings are a array of bytes so use can call each character like a array
+#python doesnt have a character data type its just a string with the length of 1
+#square backets can be used to access elements of a string
+a = "Hello World"
+print(a[1]) #prints the character at postition 1 the first position is 0 so 1 is the second
+#it will print 'e'
+print() #line break
+
+#you can also loop through strings
+for variable in "banana": #for each character in banana
+    print(variable) #print the character
+#you can print the length of a string with the len(length) operator
+print(len("Hello")) #prints the length of the string
+
+#you can check if there is a phrase in the string
+txt = "string to check phrase searches"
+print("phrase" in txt) #there is the phrase 'phrase' in the string so it would output true
+
+if "phrase" in txt: #you need colons on if statements btw
+    print("there is the word 'phrase' in the variable") #prints the string if there is the word 'phrase' in the variable 'txt'
+
+#you can do the same thing but if its not in the string by adding not before 'in'
+txt = "string to check phrase searches"
+print("random" not in txt) #there is not the phrase 'random' in the string so it would output true
+
+if "random" not in txt:
+    print("there is not the word 'random' in the variable") #prints the string if there is not the word 'random' in the variable 'txt'
+
+#you can print only a certain range with the string
+print("hello world"[2:5]) #will print 'llo' which is character 2-4 because in python is doesnt use the last number in a range
+#same thing except it prints from the start instead of postition 2
+print("hello world"[:5]) #will print 'hello' which is position 0 to 4
+#same this except it prints from the end instead of position 5
+print("hello world"[2:]) #will print 'llo world' which is position 2 to the end (12)
+
+#you can do the same thing but from the end of the string using negative numbers
+a = "hello world"
+print(a[-5:-2]) #-5 from the end is 'w' and -2 is 'l' but the last number isnt included so 'r' which would print w-r so 'wor'
 
