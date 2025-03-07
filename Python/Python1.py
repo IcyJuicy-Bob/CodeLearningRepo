@@ -183,3 +183,27 @@ import random #import the random module
 print(random.randrange(1, 10)) #random.randrange tells it it uses the random module and its a rand(random) number in a range then you specify the range
 #also this doesnt display the top numbers for some reason so 10 would be displayed ever its only 1-9
 
+#if you specify a value using the constructor function but use the terminology to specify another itll follow the constructor function
+a = int(3) #will be integer 3
+b = int(3.8) #will be integer 3
+c = int("3") #will be integer 3
+
+x = float(1) #will be 1.0
+y = float(2.8) #will be 2.8
+z = float("3") #will be 3.0
+w = float("4.2") #will be 4.2
+
+x = str("s1") #will be 's1'
+y = str(2) #will be '2'
+z = str(3.0) #will be '3.0'
+
+#using single or double quotes give the same result while defining strings
+#you can use quotes inside quotes you just have to use the opisite type
+print('text to show "quotes"')
+#multiline quotes
+print("""Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.""")
+#the line breaks are still shown in the console
+
