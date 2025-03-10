@@ -353,3 +353,5 @@ print("this is a \"quote\" in a string") #use the backslash as a escape characte
 #upper()	Converts a string into upper case
 #zfill()	Fills the string with a specified number of 0 values at the beginning
 
+
+#moved to python2.py because this is getting quite long
