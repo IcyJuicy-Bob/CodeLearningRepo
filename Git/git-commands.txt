@@ -68,6 +68,7 @@ touch "file name and extention"                                      makes a fil
 
 - git security
 
+--- might not work without using "eval $(ssh-agent)" first
 -- ssh is a secure shell network protocol it uses pairs of keys like a key and a lock type system like a handshake
 -- its to gain encryption in a unsecured open network
 -- when generating keys there is public and private keys
@@ -80,10 +81,10 @@ ssh-add "the file location you used (dont use quotes)"                          
 clip < "file location (dont use quotes)"                                                                                   coppies the file to clipboard
 -- go into github setings then ssh and gpg keys and import your ssh key use the public key not private
 ssh -T "address (e.g git@github.com)(dont use quotes)"                                                                     tests the ssh address
--- most of this dont work on codespace
 -- you can add a new remote using ssh using the ssh clone thing when clicking the code button on the repo main page
-git remote add "remote name" "ssh url (dont use quotes)"                                                                       adds new origin using ssh url
+git remote add "remote name" "ssh url (dont use quotes)"                                                                   adds new origin using ssh url
 git remote set-url "remote-name" git@github.com:"username"/"repository.git"                                                changes a remote origin from https url to ssh url
+git remote rm "remote name (dont use quotes)"                                                                              removes a remote
 
 - reverting, resetting, and amending in git
 -- these are normally fine doing on your local copy but dont do this on the remote unless your really sure it could mess other peoples work up
