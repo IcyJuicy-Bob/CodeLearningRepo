@@ -273,3 +273,83 @@ print(c)
 c= a + " " + b #combines them but added a space in the middle dont forget the actual space inside the brackets btw
 print(c)
 
+#formatted strings
+
+a = "age = "
+#b = "a" + 46  this doesnt work to combine strings
+
+age = 36
+#f strings use curly brackets are used to hold placeholder variables inside the string
+txt = f"age = {age}" #this is a f string it formats strings put a f before the string and it checks for curly brackets and uses that as a placeholder value
+print(txt)
+
+#a placeholder can contain variables, operations, functions, and modifiers to format the value
+price = 59
+txt = f"the price is {price:.2f}" #to define a modifyer use a colon : then a legal formatting type for this its .2f which is a fixed point number with length of 2 deicmals
+print(txt)
+
+print(f"math operations inside a placeholder (2 x 6) : {2*6}") #you can do math operations inside strings using formatting and output the value
+
+#escape characters let you use symbols mainly quotes when you shouldnt be allowed
+print("this is a \"quote\" in a string") #use the backslash as a escape character before teh character you want the string to ignore and print anyway
+#there is also specific line commands you can use with the backslash
+#\'	Single Quote	    outputs a single quote/apostrophe
+#\\	Backslash	        shows a backslash like another other character
+#\n	New Line	        rolls over to the next line
+#\r	Carriage Return	    i think this is the same as a new line but the cursor is put at the begining of the new line so it just updates over the text on the new line
+#\t	Tab	                inserts a tab around 4 spaces or something
+#\b	Backspace	        same as a backslash on your keyboard deletes a space
+#\f	Form Feed	        i dont really know what this does but it outputs like this          hello 
+#                                                                                                  world
+#\ooo	Octal value	    uses octal values to print characters "\110\145\154\154\157"
+#\xhh	Hex value       uses hex values to print characters "\x48\x65\x6c\x6c\x6f"
+
+#the next bunch of things i didnt write myself because there is a lot
+#this is the stuff you use after a string for example a.upper()
+
+#capitalize()	Converts the first character to upper case
+#casefold()	Converts string into lower case
+#center()	Returns a centered string
+#count()	Returns the number of times a specified value occurs in a string
+#encode()	Returns an encoded version of the string
+#endswith()	Returns true if the string ends with the specified value
+#expandtabs()	Sets the tab size of the string
+#find()	Searches the string for a specified value and returns the position of where it was found
+#format()	Formats specified values in a string
+#format_map()	Formats specified values in a string
+#index()	Searches the string for a specified value and returns the position of where it was found
+#isalnum()	Returns True if all characters in the string are alphanumeric
+#isalpha()	Returns True if all characters in the string are in the alphabet
+#isascii()	Returns True if all characters in the string are ascii characters
+#isdecimal()	Returns True if all characters in the string are decimals
+#isdigit()	Returns True if all characters in the string are digits
+#isidentifier()	Returns True if the string is an identifier
+#islower()	Returns True if all characters in the string are lower case
+#isnumeric()	Returns True if all characters in the string are numeric
+#isprintable()	Returns True if all characters in the string are printable
+#isspace()	Returns True if all characters in the string are whitespaces
+#istitle()	Returns True if the string follows the rules of a title
+#isupper()	Returns True if all characters in the string are upper case
+#join()	Joins the elements of an iterable to the end of the string
+#ljust()	Returns a left justified version of the string
+#lower()	Converts a string into lower case
+#lstrip()	Returns a left trim version of the string
+#maketrans()	Returns a translation table to be used in translations
+#partition()	Returns a tuple where the string is parted into three parts
+#replace()	Returns a string where a specified value is replaced with a specified value
+#rfind()	Searches the string for a specified value and returns the last position of where it was found
+#rindex()	Searches the string for a specified value and returns the last position of where it was found
+#rjust()	Returns a right justified version of the string
+#rpartition()	Returns a tuple where the string is parted into three parts
+#rsplit()	Splits the string at the specified separator, and returns a list
+#rstrip()	Returns a right trim version of the string
+#split()	Splits the string at the specified separator, and returns a list
+#splitlines()	Splits the string at line breaks and returns a list
+#startswith()	Returns true if the string starts with the specified value
+#strip()	Returns a trimmed version of the string
+#swapcase()	Swaps cases, lower case becomes upper case and vice versa
+#title()	Converts the first character of each word to upper case
+#translate()	Returns a translated string
+#upper()	Converts a string into upper case
+#zfill()	Fills the string with a specified number of 0 values at the beginning
+
