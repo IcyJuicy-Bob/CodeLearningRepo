@@ -242,6 +242,34 @@ print("hello world"[:5]) #will print 'hello' which is position 0 to 4
 print("hello world"[2:]) #will print 'llo world' which is position 2 to the end (12)
 
 #you can do the same thing but from the end of the string using negative numbers
-a = "hello world"
-print(a[-5:-2]) #-5 from the end is 'w' and -2 is 'l' but the last number isnt included so 'r' which would print w-r so 'wor'
+a = "Hello World"
+print(a[-5:-2]) #-5 from the end is 'w' and -2 is 'l' but the last number isnt included so 'r' which would print W-r so 'Wor'
+
+#string modifing
+
+print(a.upper()) #you can modify sttrings using ."element"() in this case 'upper' this will display the string only in uppercase
+print(a.lower()) #same thing goes for lower but it will print only in lowercase
+
+b = " Hello World "
+print(a.strip()) #you can use the strip element to remove any whitespaces before or after the string (spaces)
+
+#you can replace letter in the strip using the replace element
+print(a.replace("H", "J")) #replaces the specified letter with another letter specfied after characters are just length 1 strings so you have to specify them as a string
+
+c = "Hello, World!"
+print(c.split(",")) # splits the word into two "['Hello', ' World!']" at the specified point in this case ',' but it does replace that character with a comma so i would only do it on commands or it'll look a bit weird
+
+#you dont have to do these with a variable for example
+print("hello".upper()) #prints upercase without a variable
+d = b.strip() #assigns a value but removing the outside whitespaces (spaces) first
+print(d) #prints it
+
+#string combining
+
+a = "Hello"
+b = "World"
+c = a + b #combines them but doesnt leave room for a space
+print(c)
+c= a + " " + b #combines them but added a space in the middle dont forget the actual space inside the brackets btw
+print(c)
 
