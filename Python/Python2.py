@@ -32,3 +32,30 @@ bool("")
 bool(())
 bool([])
 bool({})
+
+class myclass(): #class like a blueprint to assign values
+  def __len__(self): #function that returns 0 or a false value
+    return 0 #return is just giving the value back as a output not printed
+
+myobj = myclass() #sets the variable to the class
+print(bool(myobj)) #prints it as a boolean value
+
+#function to print a boolean value
+def myFunction() :
+  return True
+
+print(myFunction())
+
+#you can print code or other things using the value outputted by a function/ the answer
+def myfunction():
+   return True #sets the value to true
+if myfunction():
+   print("It's true") #prints if the value is true
+else:
+   print("It's false") #prints if the value is false
+
+#this says if its true or not if its the specified data type
+a = 3
+print(isinstance(a, int)) #if a is a integer prints true if not false
+#isinstance checks if a variable is a specified data type
+
