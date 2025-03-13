@@ -1,0 +1,82 @@
+[
+  {
+    "color": "default",
+    "type": "charizard",
+    "size": "nano",
+    "name": "dave",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "mewtwo",
+    "size": "nano",
+    "name": "Mewtwo",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "mew",
+    "size": "nano",
+    "name": "Nala",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "articuno",
+    "size": "nano",
+    "name": "Harley",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "moltres",
+    "size": "nano",
+    "name": "Zoe",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "zapdos",
+    "size": "nano",
+    "name": "Billy",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "dragonite",
+    "size": "nano",
+    "name": "Sasha",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "nidoqueen",
+    "size": "nano",
+    "name": "Bruce",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "gyarados",
+    "size": "nano",
+    "name": "Zeus",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "nidoking",
+    "size": "nano",
+    "name": "Millie",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  }
+]
