@@ -42,6 +42,13 @@ def F(n): #define function with name f
 print(F(19)) #print function 19 bascially the 20th number because in python the first number is 0 its called a 0 based index
 
 
+
+#an algorithm can be used to find a specific value within the array for example the highest or lowest value
+
+
 #arrays
 #this is a list but can be used in the same way as a array in some aspects
 myarray = [7, 12, 9, 2, 15]
+
+print(myarray[3]) #prints the 4th piece of data in the array because it uses a 0 based index which in this will output "2"
+
