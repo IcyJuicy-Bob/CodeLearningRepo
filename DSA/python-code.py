@@ -50,5 +50,22 @@ print(F(19)) #print function 19 bascially the 20th number because in python the 
 #this is a list but can be used in the same way as a array in some aspects
 myarray = [7, 12, 9, 2, 15]
 
-print(myarray[3]) #prints the 4th piece of data in the array because it uses a 0 based index which in this will output "2"
+print(myarray[1]) #prints the 2nd piece of data in the array because it uses a 0 based index which in this will output "12"
 
+
+#making a algorithm to find the smallest number in a array
+'''
+Variable 'minVal' = array[0]
+For each element in the array
+    If current element < minVal
+        minVal = current element
+'''
+
+
+#a algorithm based on the one above that finds the minimum value
+minval = myarray[0] #sets the variable minval (minimum variable) to the arrays first value
+for i in myarray: #i is a placeholder variable basically no value but says for each value in the array 'myarray'
+    if i < minval: #for each value in the array if the value is smaller than minval
+         minval = i #change minval to the smaller value
+#so the end result is minval being the smallest value out of all the values in the array
+print(minval)
