@@ -49,3 +49,5 @@ DROP TABLE - /*deletes a table*/
 CREATE INDEX - /*creates an index (search key)*/
 DROP INDEX - /*deletes an index*/
 
+SELECT town,city FROM customers;
+/*same thing as the last select but it doesnt select the whole table just the two fields town and city seperated by a comma*/
