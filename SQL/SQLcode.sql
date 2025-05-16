@@ -51,3 +51,20 @@ DROP INDEX - /*deletes an index*/
 
 SELECT town,city FROM customers;
 /*same thing as the last select but it doesnt select the whole table just the two fields town and city seperated by a comma*/
+
+SELECT town,city
+FROM customers;
+/*same thing as the one above the statement ends at the semi-colon ;*/
+/*you can write statements over two lines probably more*/
+/*town and city are column/field names*/
+
+SELECT * FROM customers;
+/* "*"" selects all columns/fields when you want to return all fields*/
+
+/*sometimes a table contains more than one of the same value so we use the distinct statement*/
+SELECT DISTINCT * FROM customers;
+/*DISTINCT tells it to only return one of each value so if there was 2 of a value it wouldn't be returned*/
+
+SELECT COUNT(DISTINCT towns) FROM customers;
+/*this will return the number of unique values in the field "towns"*/
+/*this isn't supported but MS access databases*/
