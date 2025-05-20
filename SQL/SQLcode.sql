@@ -67,5 +67,32 @@ SELECT DISTINCT * FROM customers;
 
 SELECT COUNT(DISTINCT towns) FROM customers;
 /*this will return the number of unique values in the field "towns"*/
-/*this isn't supported but MS access databases*/
+/*this isn't supported by MS access databases*/
 
+/*workaround for MS acess databases*/
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
+/*idk how to explain this it works tho i think it saves the distinct value as distinct countries or something*/
+
+/*where is used to filter record that fufill a condition*/
+WHERE
+
+SELECT (*) FROM Customers
+WHERE Country='Mexico'; /*use single quotes most use double but single to be safe*/
+/*if you use a number for the where vaulue DONT USE QUOTES*/
+
+SELECT * FROM Customers
+WHERE CustomerID > 80;
+/*you can use operators in there where command this will filter for all values above 80*/
+/*all these operators can be used*/
+/*
+=	Equal	
+>	Greater than	
+<	Less than	
+>=	Greater than or equal	
+<=	Less than or equal	
+<>	Not equal. Note: In some versions of SQL this operator may be written as !=	
+BETWEEN	Between a certain range	
+LIKE	Search for a pattern	
+IN	To specify multiple possible values for a column
+*/
