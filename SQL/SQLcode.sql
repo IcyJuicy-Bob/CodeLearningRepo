@@ -96,3 +96,30 @@ BETWEEN	Between a certain range
 LIKE	Search for a pattern	
 IN	To specify multiple possible values for a column
 */
+
+ORDER by
+/*orders the values returned*/
+
+SELECT * FROM Products
+ORDER BY Price;
+/*orders the records of the table in order by what the values are in the price field it is starting from smallest to biggest*/
+
+SELECT * FROM Products
+ORDER BY Price DESC; /*DESC means descending*/
+/*orders the records of the table in order by what the values are in the price field it is starting from biggest to smallest*/
+
+SELECT * FROM Products
+ORDER BY ProductName;
+/*if you order by a field that is made of strings it orders alphabetically*/
+
+SELECT * FROM Products
+ORDER BY ProductName DESC;
+/*orders alphabetically backwards because its descending*/
+
+SELECT * FROM Products
+ORDER BY Price, ProductName DESC;
+/*if some items have the same price it then orders by product name*/
+
+SELECT * FROM Products
+ORDER BY Price ASC, ProductName DESC;
+/*you can use both Ascending and descending in that same order by pretty self explanatory so i wont explain it more*/
