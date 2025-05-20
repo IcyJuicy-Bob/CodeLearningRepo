@@ -68,3 +68,4 @@ SELECT DISTINCT * FROM customers;
 SELECT COUNT(DISTINCT towns) FROM customers;
 /*this will return the number of unique values in the field "towns"*/
 /*this isn't supported but MS access databases*/
+
