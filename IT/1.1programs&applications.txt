@@ -1,0 +1,37 @@
+-- PROGRAMS --
+Programs are a set of instructions that a computer can understand that perform certain functions thye are written in a programming language for example java that instructs 
+the computer how to perform individual operations programs can be simple or complex eg printing a messge and running a web server. A program has a specific purpose that is
+understood and and executed by a computer for example a program that can sort data into alphabetical order this can be used in a APPLICATION like a spreadsheet software.
+
+> Programs are created using programming languages eg java or python
+> They are translated into a format the computer understands then run
+> each program is design to perform a specific function or a set of functions
+> they may not have a user interface and may not require user interaction such as OS background processes
+
+
+
+-- APPLICATIONS --
+An application is a type of program designed to be user friendly and help users complete specific tasks
+Examples of applications are word processors eg microsoft word browsers like chrome or even mobile apps like instagram.
+applications are made of one or more programs
+
+A video editing application may include several programs each with a specific purpose eg one for importing video, one for filters, anyother for editing audio and another
+to export the finished video.
+
+> applications are designed to meet user requirements
+> they are designed for specific tasks such as editing photos or sending emails
+> most have a user interfact for the user to interact with the application eg buttons and menus
+> applications can be designed to run on specific operating systems like instructions
+> they may involve multiple programs working together
+
+
+-- DEVICES --
+every type of computer system will use programs and applications for diffrent specific purposes
+
+> Desktops and laptops run operating systems, software applications and utilities
+> game consoles use applications for gaming, streaming, and social feautures like voice chats
+> smart tvs use applications for streaming, browsing and remote control feautures
+> smart speakers use programs to process voice commands, control smart home devices and play music based on user intput
+> smartphones and tables use mobile apps for communication games and productivity
+> AR, VR and MR devices use programs to generate and manage 3D enviroments, track user movemenst and respond to inputs
+> Embedded systems like washing machines, smart fridges and cars use programs to manage their operations and interfaces
