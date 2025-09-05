@@ -1,0 +1,44 @@
+-- OPERATING SYSTEMS --
+and operating system is software that manages the resources of a computer system such as files, memory and users it provides a user interface so the user can interact
+with the device hardware. An operating system allows appilcation software to be opened and run.
+
+-- NOS --
+A network operating system (NOS) is software that manages network resources and allows computers to communicate over a network.
+Windows server devloped by microsoft is a example of a netowrk operating system
+
+> allows for the centralised managment of users, data and security across multiple devices across the network
+> enables resources such as files, applications and printers to be shared over the network
+> manages user authentication and permission control
+> oversees remote access and system monitoring tools
+
+The main device that uses a NOS is a server other devices like desktops, laptops connect to the server to access shared resources.
+windows server is a example of a popular NOS
+
+- Advantages
+> administators can manage user files and security on a network from one central location 
+> resources such as files, printer access, and applications can be shared across the network
+> access levels can be controlled and user authentication helps protect data
+> an NOS is scalable - more devices and users can be added as needed
+> central systems managed by a NOS make it easier to back up and restore important files
+
+- Disadvantages
+> Purchasing a NOS and maintaining a servers it runs on can be expensive
+> setup and managment is complex and may require skilled administators
+> if the main server running the NOS fails, connected computers may loose access to resources
+> heavy traffic and poor configuration could slow the network down
+
+application developers can use a NOS to build, test and manage apps that work across networks, such as web applications, multiplayer games or cloud tools
+this type of operating systems is also used by orginisations that need to manage multiple devices, users and resources efficiently across a network, such as a school or 
+small business
+
+
+
+-- OPEN OPERATING SYSTEMS --
+an open operating system is opne-source meaning its source code is freely available for anyone to view, modify and distribute
+source code is the original set of instructions written by a programmer using a high level programming language such as python, java or c++
+
+> users have access to the source code and can see how the os works
+> the source code can be modified to suit the specific needs of the user
+> development and maintenance may be led by a online community
+> and open os is usually free with no licensing costs for most versions
+
