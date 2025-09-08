@@ -1,0 +1,62 @@
+-- APPLICATIONS --
+
+-- COMMUNICATION
+allows users to exchange infomation with others most often in real time
+data can be transferred in a range of formats including text image and video
+
+> simple user interface for quick and relible data exchange
+> supports multiple formats (text audio image video and files)
+> requires a network connection to send or recieve data
+> often has built-in security and privacy such as end to end encryption
+> may use presence awareness such as showing typing or showing when they are online
+
+whatsapp, messenger, zoom, slack, gmail
+
+-- EDUCATION
+teaches users about specific topics and help people learn new skills
+this may be aimed at age groups or user groups such as those learning a new language
+
+> it may be structured around learning milestones or long term goals
+> often interactive such as quizzes or regular recaps of topics
+> could include different formats of learning such as text visuals or audio
+> usually tracks skills or scores over time to show progress in a user friendly way
+> age appropriate content and design possibly with difficulty levels
+
+duolingo, kahoot, quizlet, memrise, anki
+
+-- ENTERTAINMENT
+provides enjoyment through formats such as video or audio often with automatic suggestions based on
+previous interactions including watched videos likes or comments
+
+> simple design to focus on keeping users engaged
+> may include streamed media content or the option to download
+> designed for passive or relaxed use for example watching or listening without interactions
+> uses algorithms for recommendations based on user preferences
+> may include social features such as comments or sharing with friends
+
+Netflix, Disney+, Spotify, YouTube, Twitch
+
+-- GAMES
+to offer interactive challenges in a fun or competitive way
+may be played together online or offline for single player experience
+
+> based on clear rules and objectives with reward systems for example achievements
+> high interactivity and quick responsiveness to keep players engaged
+> requires graphical rendering, user inputs and sound design
+> may support local multiplayer or online play with competition like leaderboards
+> often has a range of difficulty levels to keep players challenged
+
+Minecraft, Fortnite, Among Us, EA Sports FC, Candy Crush
+
+-- LIFESTYLE
+supports a helathy and organised way of living
+they often help people to manage their daily tasks and form positive personal routines
+
+> Often personalised to user preferences or personal data
+> may use real time inputs such as location or health data like steps taken
+> it may be integrated with smart wearable devies such as a smartwatch
+> designed to be used breifly but daily like checking steps or logging meals
+> encouraged improved habits or healthier improvements
+
+MyFitness Pal, Noom, Headspace, FitBit, Couch to 5k
+
