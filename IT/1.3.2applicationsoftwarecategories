@@ -1,0 +1,32 @@
+-- APPLICATION CATEGORIES --
+there are five application software catagories
+open
+closed
+shareware
+freeware
+embedded
+
+you need to know 
+the purpose and common characteristics
+the types of devices theyll be used onthe advantages and disadvantages of the software
+how client requirements affect the selection of that software
+
+-- OPEN software
+open or open source software is developed to be freely accessible and allow users to view, modify and distribute
+the source code its purpose is to promote collaboration and customisation when developing software
+
+-- CLOSED SOFTWARE
+closed or closed source or proprietary software is developed and distributed by a company or individual who owns the source code
+the purpose is to maintain control, generate profit and ensure a consistent user experience
+
+-- SHAREWARE
+shareware is closed software that is distributed for free on a trial basis often with limited features or time restrictions
+the purpose is to let users try before they buy encouraging them to later purchase the full version
+
+-- FREEWARE
+freeware is closed software that is completely free to use usually without restrictions like time limits or limited features
+but still owned by a developer or company the purpose is to provide software for free while retaining control over its code and distribution
+
+-- EMBEDDED SOFTWARE
+embedded software is designed to run on specific hardware and perform dedicated tasks it is usually built in to devices that are not traditional computers
+like washing machines or microwaves allowing those devices to function efficiently and potentially automatically

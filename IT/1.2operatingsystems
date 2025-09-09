@@ -40,5 +40,19 @@ source code is the original set of instructions written by a programmer using a 
 > users have access to the source code and can see how the os works
 > the source code can be modified to suit the specific needs of the user
 > development and maintenance may be led by a online community
-> and open os is usually free with no licensing costs for most versions
+> an open os is usually free with no licensing costs for most versions
+
+Linux is an example of a open operation system. android is technically an open source OS but most commercial android devices (like google pixel phones)
+include proprietary components(like google docs or gmail) which markes the full system not completely open source
+
+- Advantages
+> it is uaually free to use modify and distribute the source code
+> because the source code can be seen and modified this type of OS is flexible and customisable
+> there may be updates from and online community maintaining and improving the software> promotes experimentation to learn how systems work and try new ideas
+
+- Disadvantages
+> programming knowledge and skills are required to modify the source code
+> there may be security risks if someone edits the source code redistributes it with malicious code
+> there will be less official support compared to a proprietary operating system
+> some proprietary applications like microsoft access for databases will only work on a proprietary OS like windows
 
