@@ -1,6 +1,6 @@
 -- OPERATING SYSTEMS --
 and operating system is software that manages the resources of a computer system such as files, memory and users it provides a user interface so the user can interact
-with the device hardware. An operating system allows appilcation software to be opened and run.
+with the device hardware. An operating system allows application software to be opened and run.
 
 -- NOS --
 A network operating system (NOS) is software that manages network resources and allows computers to communicate over a network.
@@ -56,3 +56,37 @@ include proprietary components(like google docs or gmail) which markes the full 
 > there will be less official support compared to a proprietary operating system
 > some proprietary applications like microsoft access for databases will only work on a proprietary OS like windows
 
+app devlopers would use an open OS when the device their application will be used on is not tied to a specific proprietary system like windows or malicious
+for example a charity making a free educational app for developing countries would choose an open OS so it can run on low cost older smartphones
+it can be customised and tested on a range of devices
+applications for specific single-purpose systems would also use an open OS such as an information terminal in a museum
+linux could be used to develop a simple user interface and remove unnecessary systems
+
+-- PROPRIETARY OPERATING SYSTEMS --
+a proprietary operating sysem is software that is owned by a company or individual and the source code is not accessible
+for users to view modify or distribute
+users must typically buy a licence or agree to the terms of use
+
+> the source code is hidden from the user and cannot be legally modified
+> a paid licence or subscription is usually required to use the software
+> it may be maintained and updated by the developer(s) who own it
+> only the developer controls updates and the features that are added or fixed
+
+microsoft windows, macOS, iOS, iPadOS
+
+-- ADVANTAGES
+> there is an expectation that it is user freindly and has been well tested
+> there may be official support and regular updates for improvements and bug removal
+> a proprietary OS has a high compatibility with proprietary software such as microsoft office or adobe editing apps
+> the OS is exoected to be stable and secure with access restricted to system files
+
+-- DISADVANTAGES
+> a paid licence to use the OS is often required which may be expensive
+> there is limited customisation for users as the source code cannot be seen or modified
+> users rely on the vendor (developer) for updates and bug fixes
+> some proprietary OS are designed to work on specific hardware such as iOS only working on iPhones
+
+app developers will need a proprietary OS if they are developing applications for a device that requires a specific proprietary OS
+for example if they are creating a game for iphones they will need to use iOS
+a company designing a finance application on desktops with microsoft access and microsoft excel must use a proprietary os like windows
+so that it can be integrated with these other types of proprietary application
