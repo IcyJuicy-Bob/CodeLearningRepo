@@ -1,0 +1,27 @@
+-- SOFTWARE DEVELOPMENT MODELS --
+Traditional models: Waterfall
+Prototype models: Rapid Throwaway, Incremental, Evolutionary
+Iterative Models: Rapid Application Development (RAD), Spiral, Agile
+
+-- WATERFALL
+it's a linear and structured approach where each phase is completed one at a time in order
+It needs all requirements to be clearly defined at the start little to no changes allowed once a phase is finished
+best suited for projects with fixed requirements and minimal risk of changes
+
+-- RAPID THROWAWAY PROTOTYPE MODEL
+involves quickly creating temporary prototypes to explore idead and gather user feedback before finalising the system
+prototypes are discarded after they help refine requirements and are especially useful in projects where user needs are initially unclear
+suitable when user interaction and efficient interface design are critical
+
+-- INCREMENTAL MODEL
+develops a system in small manageable sections each part being designed built and tested individually
+functionality is added step by step until the full system is complete
+this approach allows for early partial deployment and easier handling of changing requirements over time
+
+-- EVOLUTIONARY PROTOTYPE MODEL
+involves building an initail prototype that is continuosly improved based on user feedback until it becomes the final system
+the prototype is not discarded but gradually evolves into the full product once the user is satisfied
+this model is ideal when user requirements are expected to change or develop over time
+
+-- RAPID APPLICATION DEVELOPMENT (RAD)
+focuses on quickly building software through iterative development and frequent user feedback
