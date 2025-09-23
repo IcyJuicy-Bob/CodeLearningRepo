@@ -57,3 +57,16 @@ includes phases, parallel and big bang (crash) implementation types
 > quick and simple to roll out
 > however it is risky as if there are problems with the new system there is no backup
 > it is best for small systems or when time is limited and risk is low
+
+-- DOCUMENT CREATION
+creates documentation that can help users navigate the system and resources to aid developers with future maintenance
+> write user manuals and guides
+> documents how the system works for developers
+> keep records of decisions designs and changes
+
+-- MAINTENANCE
+final phase for many software devlopment models is a ongoing period of maintenance to improve the software and fix any security risks
+> fix bugs found after release
+> update software to meet new needs
+> improve performance or security
+> provide ongiong user support

@@ -1,0 +1,38 @@
+-- PROJECT PLANNING TOOLS --
+project planning tools help visualise the project by clearly showing tasks, timelines and dependencies
+they also break down complex work into smaller manageable steps and can be used to track progress and identify delays
+each tool suits different project needs and has its own advantages and disadvantages
+choosing the right tool makes planning more accurate efficient and successful
+
+-- ARROW DIAGRAM
+represents tasks as arrows connected in sequence to show their order and dependencies
+it helps identify the critical path this is the longest sequence of dependent tasks that determines the projects minimum completion time
+this method is useful for visualising task relationships spotting bottlenecks and showing the order of activities
+
+-- CRITICAL PATH ANALYSIS
+also known as critical path method
+is used to identify the critical path
+this is the sequence of tasks that determines the shortest possible project duration
+it highlights tasks that cannot be delayed without affecting the overall timeline
+helps prioritise resources manage dependencies and minimise project delays
+
+-- FLOWCHARTS
+diagram that represents a process or workflow using standard symbols and arrows to show the sequence of steps
+it helps visualise decision points and actions and clearly highlights the flow of information or tasks
+flowcharts make complex processes easier to understand communicate ideas to clients and troubleshoot potential problems
+
+-- GANTT CHARTS
+displays tasks along a timeline showing their start and end dates
+it helps track task dependencies overlaps and progress at a glance
+useful for coordinating work, meeting deadlines and ensuring all project stages are completed in order
+
+-- PERT CHARTS
+program evaluation and review technique
+maps tasks, their dependencies and timelines in a network diagram
+it uses three time estimates optimistic, most likely and pessimistic to calculate espected completion times for each tasks
+useful for scheduling complex projects and identifying the critical path to meet deadlines
+
+-- SWOT ANALYSIS
+strategic planning tool used to identify a projects strengths, weaknesses, opportunites and threats
+strengths and weaknesses focus on internal factors that are controllable by the organisation while opportunites and threats look at external infulences outside the organisations control
+it helps guide decision making by highlighting advantages, weaknesses to address and potential risks or openings in the wider enviroment

@@ -25,3 +25,15 @@ this model is ideal when user requirements are expected to change or develop ove
 
 -- RAPID APPLICATION DEVELOPMENT (RAD)
 focuses on quickly building software through iterative development and frequent user feedback
+it uses reusable components time boxing and constant deeback to speed up delivery of an effective final product
+best suited for projects that need to be completed quickly and where requirements can evolve during development
+
+-- SPIRAL MODEL
+combines iterative development and risk management progressing through repeated cycles of planning, risk assessment, engineering (development and testing) and evaluation
+each loop focuses on identifying and addressing risks early in the project
+it is ideal for complex and high risk projects where requirements may change over time
+
+-- AGILE MODEL
+its iterative and felxible approach that progresses in small usuable chunks called iterations or sprints
+it relies on frequent collaboration with stakeholders and user feedback to adapt to changing requirements
+this model is ideal for dynamic projects where quick delivery and frequent updates are important
