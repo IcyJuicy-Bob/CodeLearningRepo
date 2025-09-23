@@ -1,0 +1,59 @@
+-- PHASES OF SOFTWARE DEVELOPMENT MODELS
+there are seven phases
+in this order
+
+-- PLANNING
+including requirements and feasibility
+> define the projects purose and goals
+> identify stakeholders and their needs
+> estimate time cost and resources
+> create a project timeline or schedule
+> assign roles and responsibilities
+- REQUIREMENTS
+> gather infomation from users and stakeholders
+> define what the software must do
+> set performance security and usability espectations
+> create requirement documents for approval
+- FEASIBILITY
+> analyse if the project is technically possible
+> check if its cost effective and worth doing
+> access if the team has the right skill and sccess to suitable tools
+> evaluate risks and how to reduce them
+
+-- DESIGN
+> plan the software architecture
+> design user interfaces
+> create data models and system
+> choose technology and tools to be used
+
+-- CONSTRUCTION/CREATION
+> write the actual code
+> develop databases and system components
+> integrate different parts of the system
+> follow coding standards and best practices
+
+-- TESTING
+could be built into construction phase
+> check for bugs and errors in the code
+> test if the software meets the original requirements
+> perform different types of testing and input validation checks
+> fix issues found during testing
+
+-- IMPLEMENTATION
+also known as deployment phase
+includes phases, parallel and big bang (crash) implementation types
+- PHASED IMPLEMENTATION
+> new system is introduced gradually one part at a time
+> advantages include its easier to manage and fix issues as users can adapt to changes slowly
+> however it takes longer to fully switch over and may be compatibility issues between old and new systems
+> best for large systems where gradual change is safer
+- PARALLEL IMPLEMENTATION
+ > both old and new systems run at the same time for a period
+ > the main advantage is safety as if the new system fails the old one should still work
+ > however it can be expensive and time consuming to have a double workload
+ > parallel is best for high risk enviroments where reliability is critical
+- BIG BANG (CRASH)
+> old system is switched off and replaced by the new system all at once
+> quick and simple to roll out
+> however it is risky as if there are problems with the new system there is no backup
+> it is best for small systems or when time is limited and risk is low
