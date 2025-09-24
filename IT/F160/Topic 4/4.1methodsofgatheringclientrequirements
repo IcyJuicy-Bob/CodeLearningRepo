@@ -1,0 +1,121 @@
+-- GATHERING CLIENT REQUIREMENTS --
+there are 9 methods
+
+-- DOCUMENT ANALYSIS
+review documentation to understand current systems, processes or needs
+it is used at the start of a project when working with existing systems and when clients have legacy documentation or records
+information collected includes technical specifications, user manuals, reports, logs, contracts, process diagrams and compliance and legal documents
+
+- ADVANTAGES
+> low cost and non intrusive
+> provides deailed and reliable histroical data
+> helps spot existing problems and gaps
+> saves time if documents are already available
+
+- DISADVANTAGES
+> information may be outdated or incomplete
+> doesnt capture user opinions or current needs
+> requires time to review large volumes of documents
+
+
+-- FOCUS GROUPS
+gather ideas, opinions and feedback from a group of stakeholders or users through guided discussion
+used early in the project to explore needs and opinions to collect feedback on a prototype or idea and when user input is important to shape the product
+information collected includes user needs and expectations, opinions on features or designs, reactions to mock ups and group preferences or disagreements
+
+- ADVANTAGES
+> provides rich detailed feedback
+> encourages idea sharing and discussion
+> highlighs different viewpoints
+> can uncover issues not considered before
+
+- DISADVANTAGES
+> can be hard to manage or keep on topic
+> some voices may dominate the group and results may not represent all views
+> not suitable for very technical or private topics
+
+
+-- INTERVIEWS
+collects detailed information from individuals through structured or semi structured questioning
+used to explore specific needs in depth when stakeholders have unique or detailed input and when confidentiality or accuracy is important
+information collected includes user goals and preferences specfic requirements or constraints and detailed insights from managers technical staff or users
+
+- ADVANTAGES
+> provides in depth tailored responses
+> allows follow up questions for clarity
+> builds understanding and trust
+> flexible with formal or informal questions
+
+- DISADVANTAGES
+> time consuming to conduct and analyse
+> may require skilled interviewers to avoid bias
+> only captures the views of a few people per session
+
+
+-- MEETINGS
+brings stakeholders together to discuss requirements priorities and expectations in a formal or informal setting
+used at the start of key project stages when decisions need to be made collectively to clarify feedback resp;ve disagreements or update stakeholders
+information collected includes agreed requirements and goals stakeholder conflicts or compromises and clarification of needs, roles, timelines and issues
+
+- ADVANTAGES
+> encourages collaboration and team input and can help resolve misunderstandings
+> quick to gather and confirm information in real time
+> useful for decision making clarifcation and priority setting
+
+- DISADVANTAGES
+> can go off topic or take too long may be difficult to schedule for all participants
+> some participants may not contribute equally
+> decisions may be unclear without notes or follow up
+
+
+-- OBSERVATIONS
+watch users interact with current systems and taks to undestand real behaviours not just what users say
+used when users may not be able to explain their needs clearly to find usability ussues or inefficiencies and in area where accuracy is imporant for example healthcare
+information collected includes actual user behaviour and processes task timings and sequences and errors or confusion not reported by users
+
+- ADVANTAGES
+> shows how things are actually done can identify hidden problems and workarounds
+> doesnt rely on user memory or opinion reducing bias
+> useful for improving usability or workflow
+
+- DISADVANTAGES
+> time consuming may require multiple sessions and not suitable for sensitive tasks
+> observer effect - people may act differently when watched
+> doesnt explain why users behave in certain ways
+
+
+-- PROBLEM REPORTS
+review existing feedback or logs of problems with current systems to identify what needs to be improved
+its used when replacing or updating a existing system to understand pain point and when clients already track bugs and issues
+information collected includes common user problems and system failures user complaints and frustation points and suggestions or feature requests
+
+- ADVANTAGES
+> can guide testing and provide quality improvements
+> direct insight into real issues
+> focusus development on fixing what matters most
+> low cost if the data is already collected
+
+- DISADVANTAGES
+> might not capture all problems if users dont report them
+> only shows what went wrong not what users want
+> may not give the full context needed to solve the issue
+
+
+-- QUESTIONNAIRES
+collect structed information from many users or stakeholders through written questions
+it is used when feedback is needed from a large or dispersed group to gather both quantitative data and opinions and in early stages to identify general needs
+information collected includes user demographics ratings or features or priorities mulitple choice or short answer feedback and open ended comments
+
+- ADVANTAGES
+> can reach many people quickly and cheaply
+> easy to analyse quantitative data statistically
+> standardised questions ensure consistency
+> allows anonymity encouraging honest answers
+
+- DISADVANTAGES
+> limited depth of answers that cant be probed for clarity
+> risk of low response rates or biased samples
+> poorly worded questions can cause confusion
+
+
+-- SHADOWING
