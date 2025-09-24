@@ -119,3 +119,33 @@ information collected includes user demographics ratings or features or prioriti
 
 
 -- SHADOWING
+follow and observe a user closely as they perform their tasks gaining real time insights
+used when a detailed understanding of daily user activities is needed to observe workflows and processes and for complex tasks that are hard to decsribe verbally
+information collected includes real time actions and decisions, workarounds, interactions with tools and systems and enviromental factors affecting work
+
+- ADVANTAGES
+> provides rich contextual understanding
+> revreals unspoken challenges or behaviours
+> builds empathy for user needs
+> userful for identifying workflow improvements
+
+- DISADVANTAGES
+> time consuming and resource intensive
+> not practical for large numbers of users
+> can make users uncomfortable or change behaviour
+> requires skilled observers to interpret results
+
+
+-- SUGGESTION ANALYSIS
+collect and review ideas and feedback submitted by users or stakeholders for system improvements or new features
+it is used during or after deployment to gather user input to continuously improve a system and when a client wants to encourage user engagement and innovation
+information collected includes user suggestions for new features feedback on usability requests for fixes and innovative ideas from diverse perspectives
+
+- ADVANTAGES
+> encourages active user participation to build positive relationships with users
+> provides real world ideas and priorities to enhance development and uncover creative solutions
+
+- DISADVANTAGES
+> may recieve irrelevant or unrealistic suggestions
+> can be overwhelming without proper management to review and prioritise ideas
+> quality and usefulness of suggestions vary widely
