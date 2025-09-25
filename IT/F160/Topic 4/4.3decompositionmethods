@@ -1,0 +1,78 @@
+-- DECOMPOSITION METHODS --
+decomposition methods break complex problems or systems into smaller, more manageable parts.
+this makes development easier to plan, understand and implement
+
+decomposition also helps reduce error and improve efficiency, as individual tasks can be more easily tested and debugged
+
+for each of the four decomposition methods (abstraction, pattern recognition, top-down and bottom-up modularisation and parsing requirements)
+you need to know when each method is suitable to use, its advantages and disadvantages, how client requirements affect their selection and how they can be used to visualise application designs
+
+-- ABSTRACTION
+process of simplifying a problem by ignoring irrelevant data and focusing only on the most important details.
+it is used in the early stages of design or planning when managing complexity in large systems and when creating reusable components
+
+- ADVANTAGES
+> simplifies complex problems
+> encourages reuse and cleaner design
+> reduces cognitive load for developers
+
+- DISADVANTAGES
+> risk of oversimplifying and missing important details
+> may cause miscommunication as team members may interpret abstractions differently
+
+
+-- PATTERN RECOGNITION
+
+identifies similarities or trends in problems or client requirements this allows for the reuse of existing components and aids in finding solutions for common issues
+it is used during the planning or analysis phases and when dealing with similar tasks inputs outputs or processes
+
+- ADVANTAGES
+> saves time through the reuse of known solutions
+> reduces redundancy in code and design
+> improves effciency and consistency
+
+- DISADVANTAGES
+> might lead to incorrect or oversimplified assumptions if differences are ignored
+> potential bias
+> can be time consuming to identify patterns in complex systems
+
+
+-- MODULARISATION
+refers to the indiviual components that make up a larger project
+
+in top down modularisation a larger system is broken down from general overview into its most specific parts
+
+the purpose of bottom up modularisation is to build the system starting with the smaller detialed components and combinding them into larger subsystems
+
+- ADVANTAGES - TOP DOWN
+> makes complex systems manageable
+> provides a clear overview of system architecture
+> flexible for future growth
+> easy to assign tasks to teams based on modules
+
+- DISADVANTAGES - TOP DOWN
+> risk of vague poorly designed modules and may require more time
+> may miss important low level functionality early on
+
+- ADVANTAGES - BOTTOM UP
+> encourages reuse of existing components promoting consistency
+> useful for testing individual modules before integration
+> promotes high quality well tested code
+
+- DISADVANTAGES - BOTTOM UP
+> can result in disorganised or inconsistant overall structure
+> difficult to ensure all parts fit together well both methods increase complexity
+
+
+-- PARSING OF REQUIREMENTS
+to systematically break down and analyse client requirements into actionable tasks or functions
+it is used at the start of a project to ensure shared understanding between development teams and clients
+
+- ADVANTAGES
+> ensures clear mapping between client needs and system features
+> identifies missing, vague or conflicting requirements
+> supports organisation and identifies high priority tasks
+
+- DISADVANTAGES
+> time consuming and complicated to manage especially for large projects
+> relies on quality client communication
