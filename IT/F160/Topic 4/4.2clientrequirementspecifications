@@ -1,0 +1,33 @@
+-- CLIENT REQUIREMENT SPECIFICATIONS
+detailed document that outlines what the client needs from a new system
+elements include the new system's purpose, functional and non functional requirements, constraints and success criteria
+
+knowing requirements allow for better stimates of time, cost and resources leading to more realistic prject schedules and budgets reducing risk of failure
+
+-- PURPOSE OF the NEW SYSTEM
+explains why the system is being developed and what problem it aims to solve
+provides an overall focus for the development team
+
+gathered via interviews, meetings and document analysis
+
+
+-- FUNCTIONAL REQUIREMENTS
+details what the system must do to achieve the purpose and meet user needs like specific tasks features and behaviours
+
+gathered via interviews questionnaires, focus groups and observation
+
+
+-- NON FUNCTIONAL REQUIREMENTS
+specifies system qualities like performance security usability and reliability 
+important for the projects success but not directly related to system functions
+
+gathered via interviews, document analysis and client meetings
+
+
+-- PROCESS CONSTRAINTS
+defines limitations on how processes must operate during development like legal rules, or business policies
+
+gathered via document analysis and interviews with managers or compliance teams
+
+
+-- CURRENT SYSTEM DEFICIENCIES
