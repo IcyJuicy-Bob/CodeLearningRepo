@@ -31,3 +31,69 @@ gathered via document analysis and interviews with managers or compliance teams
 
 
 -- CURRENT SYSTEM DEFICIENCIES
+identifies problems or weakneses in the existing system that the new one must fix or improve upon
+
+gathered via problem reports observation, interviews and document analysis
+
+
+-- DATA FORMATS
+specifies how data is structures, stored and exchanges (e.g. CSV, XML, JSON)
+stablishing formats ensures consistency between system components
+
+gathered via document analysis and interviews with technical staff
+
+
+-- CLIENT AND SOURCE CONTROL
+defines how changes to software code and documents are tracked and managed
+helps revert to previous versions if errors occur, tracks changes and allows teams to cooperate efficiently
+
+gathered via interviews and process documentation
+
+
+-- CLIENT DEFINED CONSTRAINTS
+lists any restrictions set by the client such as budget, time and storage preferences
+there are six main client defines constraints to be aware of
+
+gathered via meetings with clients and interviews with stakeholders
+
+- BUDGET
+defines financial limits for the project's development and resources
+vital for deciding which features to prioritise
+
+gathered via meetings and analysis of financial documents
+
+- TIME
+specifies deadlines and project milestones 
+important to be realistic to ensure the project can meet timescales and avoid increased cost by missing them
+
+gathered via meetings and document analysis of schedules
+
+- INTEGRATION
+details how the new system must connect with existing systems or software to minimise disruption
+systems should be compatible to allow data exchange between the old and new systems
+
+gathered via document analysis and interviews with IT teams
+
+- SOFTWARE
+specifies required or preferred software platforms, programming languages and tools for compatible and smooth integration
+
+gathered via interviews with technical staff and client policies
+
+- HARDWARE
+defines the required physical devices or infrastrcture needed to run the new system
+ensures software is compatible with the chosen hardware
+
+gathered via interviews and existing system audits
+
+- DATA STORAGE LOCATION
+specifies where data will be geographically located
+this must be carefuly considered to ensure data protection laws and security requirements are met
+
+gathered via meetings and document analysis
+
+> local/onsite
+data stored on local servers or company premises usually for security or compliance
+> cloud
+data stored on remote servers managed by third parties allowing accessibility and scalability
+> physical storage devices
+specifies use of devices like external drives or backup tapes for data storage
