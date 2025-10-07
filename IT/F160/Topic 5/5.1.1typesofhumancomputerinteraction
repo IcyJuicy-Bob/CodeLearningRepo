@@ -1,0 +1,43 @@
+-- HUMAN COMPUTER INTERACTION / HCI --
+the ways in which users engage with computers and is an important factor that must be considered
+when designing and developing an application
+> Visual
+> Audio
+> Movement
+> Touch
+
+-- VISUAL
+graphical user interfaces (GUI) provide a visual interface using windows, icons, buttons and menus
+a mouse or trackpad is commonly used to control a pointer to click on these elements
+> desktops and laptops
+> tablets and smartphones
+> kiosks and POS systems
+> smart TVs and embedded devices with displays
+
+default choice for most consumer facing applicatons 
+required when users expect a friendly intuitive interface
+may be influenced by branding or accessibility needs
+
+- ADVANTAGES
+> user friendly and accessible to a wide audience
+> visual feedback helps guide user behaviour
+> supports complex workflows with many windows/ tabs for multitasking
+
+- DISADVANTAGES
+> more demanding on system resources than a command line interface (CLI)
+> can be cluttered or overwhelming if poorly designed
+> slower than CLI for repetitive tasks
+
+
+command line interfaces (CLI) only allow user interaction with the system by typing text commands into a terminal or shell
+if the user has learned how to use them they can be highly efficient for expert tasks and automation but difficult to understand for beginners
+> desktops and laptops
+> remote servers and virtual machines
+> embedded systems with text interfaces
+
+suitable if users are technical e.g. developers or system admins
+not appropriate for general or non technical audiences
+clients may prefer GUI's for training and support purposes
+
+- ADVANTAGES
+>
