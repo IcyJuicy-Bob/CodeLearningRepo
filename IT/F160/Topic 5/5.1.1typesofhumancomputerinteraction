@@ -40,4 +40,83 @@ not appropriate for general or non technical audiences
 clients may prefer GUI's for training and support purposes
 
 - ADVANTAGES
->
+> powerful and efficient for expert users
+> lightweight and uses minimal system resources
+> easy to script and automate
+> allows for remote management of servers
+
+- DISADVANTAGES
+> steep learning curve that requires training to use before starting
+> error-prone for beginners
+> no visual feedback or discoverability - commands must be known beforehand
+
+
+
+-- AUDIO
+audio allows users to interact with a the system using voice commands or recieve spoken feedback
+speech recognition and text to speach
+> smartphones
+> smart speakers
+> laptops and desktops with microphones
+> in car systems
+
+ideal for accessibility focused applications or voice first platforms like smart speakers
+may be avoided if clients want quiet enviroments like offices or schools
+not suitable if users require visual confirmation or detailed input
+
+- ADVANTAGES
+> userful in enviroments where typing or touch is difficult like while cooking
+> hands free and accessible for users with visual or mobility impairments
+> fast for simple commands
+
+- DISADVANTAGES
+> struggles with loud background noise or different accents
+> not suitable for detailed or complex inputs
+> privacy concerns (always listening)
+
+
+
+-- MOVEMENT/GESTURES
+uses body movements or gestures like hand waves or head turns
+> motion sensors
+> AR/VR headsets
+> smartphones/tablets
+> wearables and smartwatches
+
+suited for interactive entertainment, fitness or AR/VR projects
+not practical for traditional office or admin applications
+clients must be willing to invest in suitable hardware
+
+- ADVANTAGES
+> intuitive and immersive in gaming and virtual reality
+> can be hygienic as its touch free
+> enhances user experience in interactive installations
+
+- DISADVANTAGES
+> can be physically tiring or inaccurate
+> not reliable in low light or cramped spaces
+> may require additional hardware which could be expensive
+
+
+
+-- TOUCH
+touch allows users to interact with systems by tapping, swiping or dragging directly on a screen
+> smartphones and tablets
+> touchscreen laptops and kiosks
+> ATMs and POS systems
+> interactive whiteboards
+
+ideal for mobile apps or public facing interfaces like fast food ordering or information kiosks
+less appropriate for complex desktop applications
+must consider accessibility if used by people with mobility challenges
+
+- ADVANTAGES
+> fast direct and intuitive for all ages
+> space saving no need for a keyboard or mouse
+> widely adopted and familiar
+> recognises particular interactions
+
+- DISADVANTAGES
+> not precise for detailed tasks like image editing
+> screens can get smudged or damages
+> may not work well with gloves or in cold weather
