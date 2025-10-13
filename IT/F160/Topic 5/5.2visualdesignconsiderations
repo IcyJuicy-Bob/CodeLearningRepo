@@ -1,0 +1,27 @@
+-- VISUAL DESIGN CONSIDERATIONS --
+when creating a human computer interface there are several visual design considerations that the development team must take into account
+such as the use of colour and the style of typography
+you need to know how each visual design consideration is used when designing human computer interfaces and how these interfaces
+can be improves to be more effective
+as with most topics it is also vital to consider how client requirements may impact changes related to visual design for example using larger
+text for users with visual impairments
+
+-- COLOURS
+colours are used to define the visual appearance of the interface
+this includes background colours button volours icons and text
+
+-- INTERACTION
+interaction refers to how users control or respond to the system
+through input methods like clicking tapping swiping typing or speaking
+
+-- LOCATION HIERARCHY
+location hierarchy is about the placement and organisation
+of the interfact elements based on importance
+
+-- MESSAGES
+messages are displayed to provide feedback guidance or explanations
+such as confirming actions explaining errors or offering help
+
+-- TYPOGRAPHY
+typography includes the choice of font types and the size spacing weight (boldness)
+and alignment of text

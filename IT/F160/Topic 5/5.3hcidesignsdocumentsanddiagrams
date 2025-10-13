@@ -1,0 +1,27 @@
+-- HUMAN COMPUTER INTERFACE DIAGRAMS --
+there are four types of documents/diagrams you need to know that can be used to design human computer interfaces
+data flox diagrams, flowcharts, visualisation diagrams and wireframe designs
+for each type of diagram you need to know its components and conventions
+when it is appropriate for use and how to create it
+each diagram is also effective for different uses and you must be able to consider how specific diagrams can be made more effective
+
+-- DATA FLOW DIAGRAMS
+a data flow diagram (DFD) is a visual representation of how data is transferred within a system or organisation
+they do not show decision logic or sequencing but focus on where data comes from where it goes and how it is processed
+DFDs are typically categorised into level 0 and level 1 formats which differ based on complexity
+
+-- FLOWCHARTS
+a flowchart is a diagram that shows the sequence of steps in a process using specific symbols
+flowcharts can be used as a project planning tool to visualise workflows task order and decision making paths
+it is also useful as a human computer interface diagram to show the steps and decisions users may take as they interact with the application
+
+-- VISUALISATION DIAGRAMS
+visualisation diagrams are graphical representations used to show the layout structure and appearance of a software applications interface
+theyre often used for planning design and feedback purposes
+traditionally they would be drawn on paper in pencil and annotated but modern diagrams are mocked up on a computer
+so they can be easily shared with team members and clients
+
+-- WIREFRAME DIAGRAMS
+wireframe diagrams are basic visual guides used to represent the structure and layout of a user interface without any design styling
+they focus on function layout and interaction not aesthetics
+wireframe diagrams are used in the early design stages to plan the UI layout before visual design begins
