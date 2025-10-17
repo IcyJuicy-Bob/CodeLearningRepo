@@ -1,0 +1,42 @@
+-- COMMUNICATION SKILLS
+developers working to create applications must be able to effectively communicate with team members, clients and users in a range of different ways
+there are five communication skills you need to know
+> appropriate language
+> verbal
+> non-verbal
+> questioning techniques
+> written communication
+you need to be aware of how each communication skill contributes to software development and when they would be used appropriately
+by various job roles and in different stages of application development
+
+-- APPROPRIATE LANGUAGE
+the needs of the audience must be met by tailoring vocabulary
+tone and technical detail to suit the client
+team members should avoid jargon when unnecessary and be clear
+concise and respectful to clients
+appropriate language promotes mutal understanding between developers clients and stakeholders
+and reduces misunderstandings and incorrect assumptions in requirements gathering
+
+when gathering requirments analysts need to explain technical concepts in plain english to clients
+application developers must use appropriate technical detail with other programmers during communication
+in the construction phase developers should write end-user documentation suitable for non-technical audiences
+
+
+-- NON-VERBAL COMMUNICATION
+This includes body language facial expressions gestures posture eye contact physical space and appearance
+this enhances understanding in meetings or paired programming sessions and helps convey enthusiasm agreement confusion or concern
+it can build rapport and trust within teams and includes visual cues in video calls like nodding
+
+the project manager should use a confident posture and eye contact to lead discussions in meetings
+clients should also be treated with respect using handshakes or eye contact in interviews
+during user testing the UX designer will observe users' facial expressions and gestures to assess app usability
+when reviewing code developers will use visual cues to interpret feedback and engagement from peers
+
+
+-- QUESTIONING TECHNIQUES
+different question techniques will have different goals
+such as probing questions being used to explore detail and clarifying questions to check understanding
+questioning is vital to ensure an accurate and complete understanding of client requirements
+it can identify hidden constraints or user needs and improve debugging and problem solver by asking the right technical questions
+
+different types of questioning can be used to elicit specific responses such as:
