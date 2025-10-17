@@ -40,3 +40,37 @@ questioning is vital to ensure an accurate and complete understanding of client 
 it can identify hidden constraints or user needs and improve debugging and problem solver by asking the right technical questions
 
 different types of questioning can be used to elicit specific responses such as:
+> open ended - "what features would you like the application to have?"
+> closed - "do you need the application to support offline use?"
+> probing - "you mentioned reporting tools can you explain what kind of reports you need and how often?"
+> leading - "wouldnt it be more efficient if the app sent notifications automatically?"
+> reflective - "so you want users to log in with either their email or a social media account is that right?"
+> clarifying - "when you say 'fast loading' do you mean under two seconds for each page?"
+> multiple choice - "which platforms should the app support: android, ios, windows, or all three?"
+
+when gathering client requirements analysts will use probing questions to clarify vague responses
+in the testing stage developers will ask precise closed questions about expected app behaviour
+during maintenance testers will use specific clarifying questions to diagnose user reported bugs
+
+
+-- VERBAL COMMUNICATION
+this related to spoken words and includes articulation tone pace but also listening skills
+verbal communication can occur face to face in meetings or over calls and is an immediate two way or more interaction
+when effective it speeds up clarification and problem solving supports effective collaboration and decision making
+and helps quickly alsign team members on goals and progress
+
+project managers must use clear verbal updates to track progress and communicate this to the rest of the team
+developers in the construction and testing phases especially if programming in pairs must discuss code decisions in real time without ambiguity
+when demonstrating updates developers must present the software clearly to non technical stakeholders
+
+
+-- WRITTEN COMMUNICATION
+this is communication through emails, reports, documentation, messages and comments
+it requires clarity accuracy structure and professionalism
+written data may be permanent so it can be referred to later and preserves important details like decisions requirments and bugs
+it also supports maintainability through clear documentation and code comments
+
+when creating code developers must write clear comments for team members to understand
+in the planning phase project managers will create important documents
+such as gantt charts timelines and reports which must be easily understandable to clients
+QA testers will document test cases bug reports and test results to help developers make improvements to the code
